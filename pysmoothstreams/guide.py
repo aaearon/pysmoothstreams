@@ -2,7 +2,7 @@ import json
 import logging
 import urllib.request
 
-from pysmoothstreams import Feed, Quality, Server
+from pysmoothstreams import Feed, Quality, Server, Protocol
 
 
 class Guide:
@@ -33,13 +33,18 @@ class Guide:
 			except Exception as e:
 				print(e.with_traceback())
 
-	def _build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD):
+	def _build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD, protocol=Protocol.HLS):
 		# https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+		port = auth_sign.service.hls_port
+
+		if protocol == Protocol.RTMP:
+			port = auth_sign.service.rtmp_port
+
 		c = str(channel_number).zfill(2)
-		stream_url = f'https://{server}/{auth_sign.service}/ch{c}q{quality}.stream/playlist.m3u8?wmsAuthSign={auth_sign.fetch_hash()}'
+		stream_url = f'{protocol.value}://{server}:{port}/{auth_sign.service.site}/ch{c}q{quality}.stream/playlist.m3u8?wmsAuthSign={auth_sign.fetch_hash()}'
 		return stream_url
 
-	def generate_streams(self, server, quality, auth_sign):
+	def generate_streams(self, server, quality, auth_sign, protocol=Protocol.HLS):
 		streams = []
 
 		if not isinstance(server, Server):
@@ -51,7 +56,7 @@ class Guide:
 		if self.channels:
 			for c in self.channels:
 				stream = c.copy()
-				stream['url'] = self._build_stream_url(server.value, c['number'], auth_sign, quality.value)
+				stream['url'] = self._build_stream_url(server.value, c['number'], auth_sign, quality.value, protocol)
 
 				streams.append(stream)
 

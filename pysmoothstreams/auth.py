@@ -23,7 +23,7 @@ class AuthSign:
 	def __set_service(self, service):
 		if not isinstance(service, Service):
 			raise TypeError(f'{service} is not a valid service!')
-		return service.site
+		return service
 
 	def fetch_hash(self):
 		now = datetime.now()
@@ -32,7 +32,7 @@ class AuthSign:
 
 			if self.hash is None or now > self.expiration_date:
 				logging.warning('Hash is either none or may be expired. Getting a new one...')
-				hash_url = f'{self.url}?username={self.username}&password={self.password}&site={self.service}'
+				hash_url = f'{self.url}?username={self.username}&password={self.password}&site={self.service.site}'
 				# logging.info(f'Fetching hash at {hash_url}')
 
 				with urllib.request.urlopen(hash_url) as response:
