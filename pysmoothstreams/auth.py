@@ -3,22 +3,27 @@ import logging
 import urllib.request
 from datetime import datetime, timedelta
 
-from pysmoothstreams import Site
+from pysmoothstreams import Service, LIVE247, MMATV
 
 
 class AuthSign:
-	def __init__(self, site=Site.LIVE247, auth=(None, None)):
-		self.site = site.value
+	def __init__(self, service=LIVE247, auth=(None, None)):
+		self.service = self.__set_service(service)
 		self.username = auth[0]
 		self.password = auth[1]
 
 		self.expiration_date = None
 		self.hash = None
 
-		if self.site == 'viewmmasr':
+		if self.service == MMATV:
 			self.url = 'https://www.MMA-TV.net/loginForm.php'
 		else:
 			self.url = 'https://auth.smoothstreams.tv/hash_api.php'
+
+	def __set_service(self, service):
+		if not isinstance(service, Service):
+			raise TypeError(f'{service} is not a valid service!')
+		return service.site
 
 	def fetch_hash(self):
 		now = datetime.now()
@@ -26,8 +31,9 @@ class AuthSign:
 		if self.username is not None and self.password is not None:
 
 			if self.hash is None or now > self.expiration_date:
-				logging.info('Hash is either none or may be expired. Getting a new one...')
-				hash_url = f'{self.url}?username={self.username}&password={self.password}&site={self.site}'
+				logging.warning('Hash is either none or may be expired. Getting a new one...')
+				hash_url = f'{self.url}?username={self.username}&password={self.password}&site={self.service}'
+				# logging.info(f'Fetching hash at {hash_url}')
 
 				with urllib.request.urlopen(hash_url) as response:
 
@@ -50,3 +56,4 @@ class AuthSign:
 	def set_expiration_date(self, minutes):
 		now = datetime.now()
 		self.expiration_date = now + timedelta(minutes=minutes - 1)
+		logging.info(f'Expiration date set to {self.expiration_date}')
