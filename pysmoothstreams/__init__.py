@@ -13,6 +13,11 @@ class Quality(Enum):
 	LQ = 3
 
 
+class Protocol(Enum):
+	HLS = 'https'
+	RTMP = 'rtmp'
+
+
 class Server(Enum):
 	EU_MIX = 'deu.smoothstreams.tv'
 
