@@ -4,7 +4,7 @@ setup(
 	name='pysmoothstreams',
 	version='0.1',
 	packages=['pysmoothstreams'],
-	url='',
+	url='https://github.com/aaearon/pysmoothstreams',
 	license='MIT',
 	author='Tim Schindler',
 	author_email='',
