@@ -5,7 +5,7 @@ setup(
 	version='0.1',
 	packages=['pysmoothstreams'],
 	url='',
-	license='Apache 2.0',
+	license='MIT',
 	author='Tim Schindler',
 	author_email='',
 	description=''
