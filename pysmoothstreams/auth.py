@@ -20,6 +20,8 @@ class AuthSign:
 		else:
 			self.url = 'https://auth.smoothstreams.tv/hash_api.php'
 
+		logging.debug(f'Created {self.__class__.__name__} with username {self.username} and service {self.service}')
+
 	def __set_service(self, service):
 		if not isinstance(service, Service):
 			raise TypeError(f'{service} is not a valid service!')
@@ -29,11 +31,12 @@ class AuthSign:
 		now = datetime.now()
 
 		if self.username is not None and self.password is not None:
+			logging.debug('Username and password are not none.')
 
 			if self.hash is None or now > self.expiration_date:
 				logging.warning('Hash is either none or may be expired. Getting a new one...')
 				hash_url = f'{self.url}?username={self.username}&password={self.password}&site={self.service.site}'
-				# logging.info(f'Fetching hash at {hash_url}')
+				# logging.debug(f'Fetching hash at {hash_url}')
 
 				with urllib.request.urlopen(hash_url) as response:
 
@@ -47,7 +50,7 @@ class AuthSign:
 					except Exception as e:
 						print('error!')
 
-			logging.info(f'Returning hash {self.hash}')
+			# logging.info(f'Returning hash {self.hash}')
 			return self.hash
 
 		else:
@@ -56,4 +59,4 @@ class AuthSign:
 	def set_expiration_date(self, minutes):
 		now = datetime.now()
 		self.expiration_date = now + timedelta(minutes=minutes - 1)
-		logging.info(f'Expiration date set to {self.expiration_date}')
+		logging.debug(f'Expiration date set to {self.expiration_date}')
