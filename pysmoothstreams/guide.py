@@ -16,22 +16,25 @@ class Guide:
 	def _fetch_channels(self):
 		with urllib.request.urlopen(self.url) as response:
 			self.expires = response.info()['Expires']
-			logging.info(f'Guide info set to expire in {self.expires}')
+			logging.debug(f'Guide info set to expire in {self.expires}')
 
 			try:
 				as_json = json.loads(response.read())
+				logging.debug(f'Retrieved {len(as_json)} channels from feed.')
 				self.channels = []
 
 				for key, value in as_json.items():
 					c = {'number': value['channel_id'],
 					     'name': value['name'],
 					     'icon': value['img']}
-
+					logging.debug(f'Created channel: number {c["number"]}, name {c["name"]}, icon {c["icon"]}')
 					self.channels.append(c)
 
 
 			except Exception as e:
 				print(e.with_traceback())
+
+		logging.debug(f'Fetched {len(self.channels)} channels.')
 
 	def _build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD, protocol=Protocol.HLS):
 		# https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/playlist.m3u8?wmsAuthSign=abc1234
@@ -60,4 +63,5 @@ class Guide:
 
 				streams.append(stream)
 
+			logging.info(f'Returning {len(streams)} streams.')
 			return streams
