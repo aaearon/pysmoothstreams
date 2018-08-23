@@ -8,5 +8,8 @@ setup(
 	license='MIT',
 	author='Tim Schindler',
 	author_email='',
-	description=''
+	description='',
+	classifiers=[
+		'Programming Language :: Python :: 3 :: Only'
+	]
 )
