@@ -3,7 +3,7 @@ pysmoothstreams
 A Python library for working with SmoothStreams services.
 
 Usage
-----
+-----
 Create a list of channels with metadata -- including stream URLs -- for a defined service, for a particular server, with a specific quality.
 
     >>> g = Guide(Feed.FOG)
