@@ -3,6 +3,7 @@ import logging
 import urllib.request
 
 from pysmoothstreams import Feed, Quality, Server, Protocol
+from pysmoothstreams.exceptions import InvalidQuality, InvalidServer, InvalidProtocol
 
 
 class Guide:
@@ -51,10 +52,13 @@ class Guide:
 		streams = []
 
 		if not isinstance(server, Server):
-			raise ValueError(f'{server} is not a valid server!')
+			raise InvalidServer(f'{server} is not a valid server!')
 
 		if not isinstance(quality, Quality):
-			raise ValueError(f'{quality} is not a valid quality!')
+			raise InvalidQuality(f'{quality} is not a valid quality!')
+
+		if not isinstance(protocol, Protocol):
+			raise InvalidProtocol(f'{protocol} is not a valid protocol!')
 
 		if self.channels:
 			for c in self.channels:
