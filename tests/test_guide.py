@@ -3,6 +3,7 @@ from unittest import TestCase
 
 from pysmoothstreams import LIVE247, Server, Quality, Protocol, STREAMTVNOW
 from pysmoothstreams.auth import AuthSign
+from pysmoothstreams.exceptions import InvalidServer, InvalidQuality, InvalidProtocol
 from pysmoothstreams.guide import Guide
 
 
@@ -32,12 +33,17 @@ class TestGuide(TestCase):
 		a = AuthSign(service=STREAMTVNOW, auth=('fake', 'fake'))
 		g = Guide()
 
-		with self.assertRaises(ValueError) as context:
+		with self.assertRaises(InvalidServer) as context:
 			g.generate_streams('FakeServer', Quality.HD, a, protocol=Protocol.HLS)
 
 		self.assertTrue('FakeServer is not a valid server!' in str(context.exception))
 
-		with self.assertRaises(ValueError) as context:
+		with self.assertRaises(InvalidQuality) as context:
 			g.generate_streams(Server.EU_MIX, 29, a, protocol=Protocol.HLS)
 
 		self.assertTrue('29 is not a valid quality!' in str(context.exception))
+
+		with self.assertRaises(InvalidProtocol) as context:
+			g.generate_streams(Server.EU_MIX, Quality.LQ, a, protocol='abc')
+
+		self.assertTrue('abc is not a valid protocol!' in str(context.exception))

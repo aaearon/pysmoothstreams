@@ -4,6 +4,7 @@ import urllib.request
 from datetime import datetime, timedelta
 
 from pysmoothstreams import Service, LIVE247, MMATV
+from pysmoothstreams.exceptions import InvalidService
 
 
 class AuthSign:
@@ -24,7 +25,7 @@ class AuthSign:
 
 	def __set_service(self, service):
 		if not isinstance(service, Service):
-			raise TypeError(f'{service} is not a valid service!')
+			raise InvalidService(f'{service} is not a valid service!')
 		return service
 
 	def fetch_hash(self):
@@ -48,7 +49,7 @@ class AuthSign:
 							self.set_expiration_date(as_json['valid'])
 
 					except Exception as e:
-						print('error!')
+						logging.critical(e)
 
 			# logging.info(f'Returning hash {self.hash}')
 			return self.hash
