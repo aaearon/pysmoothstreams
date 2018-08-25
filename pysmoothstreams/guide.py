@@ -12,7 +12,7 @@ class Guide:
 		self.channels = []
 		self.expires = None
 
-		self.url = feed.value
+		self.url = str(feed)
 		self._fetch_channels()
 
 	def _parse_expiration_string(self, expiration):
@@ -55,7 +55,7 @@ class Guide:
 			port = auth_sign.service.rtmp_port
 
 		c = str(channel_number).zfill(2)
-		stream_url = f'{protocol.value}://{server.value}:{port}/{auth_sign.service.site}/ch{c}q{quality.value}.stream/playlist.m3u8?wmsAuthSign={auth_sign.fetch_hash()}'
+		stream_url = f'{protocol}://{server}:{port}/{auth_sign.service.site}/ch{c}q{quality}.stream/playlist.m3u8?wmsAuthSign={auth_sign.fetch_hash()}'
 		return stream_url
 
 	def generate_streams(self, server, quality, auth_sign, protocol=Protocol.HLS):
