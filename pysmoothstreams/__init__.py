@@ -6,17 +6,24 @@ class Feed(Enum):
 	SMOOTHSTREAMS = 'https://fast-guide.smoothstreams.tv/feed.json'
 	FOG = 'https://fast-guide.smoothstreams.tv/altepg/feedall1.json'
 
+	def __str__(self):
+		return self.value
+
 
 class Quality(Enum):
 	HD = 1
 	HQ = 2
 	LQ = 3
 
+	def __str__(self):
+		return str(self.value)
 
 class Protocol(Enum):
 	HLS = 'https'
 	RTMP = 'rtmp'
 
+	def __str__(self):
+		return self.value
 
 class Server(Enum):
 	EU_MIX = 'deu.smoothstreams.tv'
@@ -49,6 +56,9 @@ class Server(Enum):
 	NA_WEST_CHI_2 = 'dnaw4.smoothstreams.tv'
 
 	ASIA_SING = 'dap.smoothstreams.tv'
+
+	def __str__(self):
+		return self.value
 
 
 Service = namedtuple('Service', 'site rtmp_port hls_port')
