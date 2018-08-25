@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
 	name='pysmoothstreams',
-	version='0.2',
+	version='0.3',
 	packages=['pysmoothstreams'],
 	url='https://github.com/aaearon/pysmoothstreams',
 	license='MIT',
