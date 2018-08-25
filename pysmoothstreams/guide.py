@@ -2,6 +2,7 @@ import json
 import logging
 import urllib.request
 from datetime import datetime
+from json import JSONDecodeError
 
 from pysmoothstreams import Feed, Quality, Server, Protocol
 from pysmoothstreams.exceptions import InvalidQuality, InvalidServer, InvalidProtocol
@@ -12,7 +13,6 @@ class Guide:
 		self.channels = []
 		self.expires = None
 
-		# self.url = str(feed)
 		self.url = feed.value if isinstance(feed, Feed) else feed
 		self._fetch_channels()
 
@@ -40,8 +40,8 @@ class Guide:
 						self.channels.append(c)
 
 
-				except Exception as e:
-					print(e.with_traceback())
+				except JSONDecodeError as e:
+					logging.critical(f'Feed at {self.url} did not return valid JSON! Channel list is empty!')
 
 			logging.debug(f'Fetched {len(self.channels)} channels.')
 

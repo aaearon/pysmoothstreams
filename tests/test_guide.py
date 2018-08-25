@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 from unittest import TestCase
+from unittest.mock import patch, MagicMock
 
 from pysmoothstreams import LIVE247, Server, Quality, Protocol, STREAMTVNOW
 from pysmoothstreams.auth import AuthSign
@@ -47,3 +48,30 @@ class TestGuide(TestCase):
 			g.generate_streams(Server.EU_MIX, Quality.LQ, a, protocol='abc')
 
 		self.assertTrue('abc is not a valid protocol!' in str(context.exception))
+
+	@patch('urllib.request.urlopen')
+	def test__fetch_channels(self, mock_urlopen):
+		with open('test_feed.json') as f:
+			json_feed = f.read()
+
+		cm = MagicMock()
+		cm.getcode.return_value = 200
+		cm.read.return_value = json_feed
+		cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT'}
+		cm.__enter__.return_value = cm
+		mock_urlopen.return_value = cm
+
+		g = Guide()
+		self.assertEqual(150, len(g.channels))
+
+		with open('test_feed.xml') as f:
+			xml_feed = f.read()
+
+		cm = MagicMock()
+		cm.getcode.return_value = 200
+		cm.read.return_value = xml_feed
+		cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT'}
+		cm.__enter__.return_value = cm
+		mock_urlopen.return_value = cm
+
+		g = Guide(feed='https://fast-guide.smoothstreams.tv/feed.xml')
