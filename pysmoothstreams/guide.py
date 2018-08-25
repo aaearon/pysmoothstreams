@@ -1,6 +1,7 @@
 import json
 import logging
 import urllib.request
+from datetime import datetime
 
 from pysmoothstreams import Feed, Quality, Server, Protocol
 from pysmoothstreams.exceptions import InvalidQuality, InvalidServer, InvalidProtocol
@@ -14,28 +15,37 @@ class Guide:
 		self.url = str(feed)
 		self._fetch_channels()
 
-	def _fetch_channels(self):
-		with urllib.request.urlopen(self.url) as response:
-			self.expires = response.info()['Expires']
-			logging.debug(f'Guide info set to expire in {self.expires}')
+	def _parse_expiration_string(self, expiration):
+		return datetime.strptime(expiration, '%a, %d %b %Y %H:%M:%S %Z')
 
-			try:
-				as_json = json.loads(response.read())
-				logging.debug(f'Retrieved {len(as_json)} channels from feed.')
-				self.channels = []
+	def _fetch_channels(self, force=False):
 
-				for key, value in as_json.items():
-					c = {'number': value['channel_id'],
-					     'name': value['name'],
-					     'icon': value['img']}
-					logging.debug(f'Created channel: number {c["number"]}, name {c["name"]}, icon {c["icon"]}')
-					self.channels.append(c)
+		if self.expires is None or datetime.now() > self.expires or force:
+
+			with urllib.request.urlopen(self.url) as response:
+				self.expires = self._parse_expiration_string(response.info()['Expires'])
+				logging.debug(f'Guide info set to expire in {self.expires}')
+
+				try:
+					as_json = json.loads(response.read())
+					logging.debug(f'Retrieved {len(as_json)} channels from feed.')
+					self.channels = []
+
+					for key, value in as_json.items():
+						c = {'number': value['channel_id'],
+						     'name': value['name'],
+						     'icon': value['img']}
+						logging.debug(f'Created channel: number {c["number"]}, name {c["name"]}, icon {c["icon"]}')
+						self.channels.append(c)
 
 
-			except Exception as e:
-				print(e.with_traceback())
+				except Exception as e:
+					print(e.with_traceback())
 
-		logging.debug(f'Fetched {len(self.channels)} channels.')
+			logging.debug(f'Fetched {len(self.channels)} channels.')
+
+		else:
+			logging.debug('Channels are not stale or fetched was not forced.')
 
 	def _build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD, protocol=Protocol.HLS):
 		# https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/playlist.m3u8?wmsAuthSign=abc1234
