@@ -1,0 +1,4095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+
+<tv source-info-url="http://www.smoothstreams.tv/" source-info-name="SS" generator-info-name="SS"
+    generator-info-url="http://www.xmltv.org/">
+    <channel id="1">
+        <display-name>ESPNNews</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/1.png"/>
+    </channel>
+    <channel id="2">
+        <display-name>ESPN</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/2.png"/>
+    </channel>
+    <channel id="3">
+        <display-name>ESPN2</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/3.png"/>
+    </channel>
+    <channel id="4">
+        <display-name>ESPNU</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/4.png"/>
+    </channel>
+    <channel id="5">
+        <display-name>FS1</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/5.png"/>
+    </channel>
+    <channel id="6">
+        <display-name>FS2</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/6.png"/>
+    </channel>
+    <channel id="7">
+        <display-name>NFL Network</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/7.png"/>
+    </channel>
+    <channel id="8">
+        <display-name>NBA TV</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/8.png"/>
+    </channel>
+    <channel id="9">
+        <display-name>MLB Network</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/9.png"/>
+    </channel>
+    <channel id="10">
+        <display-name>NHL Network</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/10.png"/>
+    </channel>
+    <channel id="11">
+        <display-name>NBC SN</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/11.png"/>
+    </channel>
+    <channel id="12">
+        <display-name>Golf Channel</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/12.png"/>
+    </channel>
+    <channel id="13">
+        <display-name>Tennis Channel</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/13.png"/>
+    </channel>
+    <channel id="14">
+        <display-name>CBS SN</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/14.png"/>
+    </channel>
+    <channel id="15">
+        <display-name>Fight Network</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/15.png"/>
+    </channel>
+    <channel id="16">
+        <display-name>WWE Network</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/16.png"/>
+    </channel>
+    <channel id="17">
+        <display-name>Sportsnet World</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/17.png"/>
+    </channel>
+    <channel id="18">
+        <display-name>Sportsnet360</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/18.png"/>
+    </channel>
+    <channel id="19">
+        <display-name>Sportsnet Ontario</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/19.png"/>
+    </channel>
+    <channel id="20">
+        <display-name>SNET1</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/20.png"/>
+    </channel>
+    <channel id="21">
+        <display-name>TSN</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/21.png"/>
+    </channel>
+    <channel id="22">
+        <display-name>Univision Deportes</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/22.png"/>
+    </channel>
+    <channel id="23">
+        <display-name>ESPN Deportes</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/23.png"/>
+    </channel>
+    <channel id="24">
+        <display-name>Comedy Central</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/24.png"/>
+    </channel>
+    <channel id="25">
+        <display-name>Paramount Network HD</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/25.png"/>
+    </channel>
+    <channel id="26">
+        <display-name>USA</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/26.png"/>
+    </channel>
+    <channel id="27">
+        <display-name>A&amp;amp;E</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/27.png"/>
+    </channel>
+    <channel id="28">
+        <display-name>TBS</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/28.png"/>
+    </channel>
+    <channel id="29">
+        <display-name>TNT</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/29.png"/>
+    </channel>
+    <channel id="30">
+        <display-name>SyFy</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/30.png"/>
+    </channel>
+    <channel id="31">
+        <display-name>Cartoon Network</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/31.png"/>
+    </channel>
+    <channel id="32">
+        <display-name>HGTV</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/32.png"/>
+    </channel>
+    <channel id="33">
+        <display-name>CNN</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/33.png"/>
+    </channel>
+    <channel id="34">
+        <display-name>NBC</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/34.png"/>
+    </channel>
+    <channel id="35">
+        <display-name>CBS</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/35.png"/>
+    </channel>
+    <channel id="36">
+        <display-name>ABC</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/36.png"/>
+    </channel>
+    <channel id="37">
+        <display-name>FOX</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/37.png"/>
+    </channel>
+    <channel id="38">
+        <display-name>Viceland</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/38.png"/>
+    </channel>
+    <channel id="39">
+        <display-name>CNBC</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/39.png"/>
+    </channel>
+    <channel id="40">
+        <display-name>FOX News</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/40.png"/>
+    </channel>
+    <channel id="41">
+        <display-name>History</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/41.png"/>
+    </channel>
+    <channel id="42">
+        <display-name>Discovery</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/42.png"/>
+    </channel>
+    <channel id="43">
+        <display-name>Nat Geo</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/43.png"/>
+    </channel>
+    <channel id="44">
+        <display-name>FX</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/44.png"/>
+    </channel>
+    <channel id="45">
+        <display-name>FXX</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/45.png"/>
+    </channel>
+    <channel id="46">
+        <display-name>BeIN Sport US</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/46.png"/>
+    </channel>
+    <channel id="47">
+        <display-name>AMC</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/47.png"/>
+    </channel>
+    <channel id="48">
+        <display-name>HBO</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/48.png"/>
+    </channel>
+    <channel id="49">
+        <display-name>HBO Comedy</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/49.png"/>
+    </channel>
+    <channel id="50">
+        <display-name>HBO Signature</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/50.png"/>
+    </channel>
+    <channel id="51">
+        <display-name>HBO Zone</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/51.png"/>
+    </channel>
+    <channel id="52">
+        <display-name>Showtime East</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/52.png"/>
+    </channel>
+    <channel id="53">
+        <display-name>ActionMax HD East</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/53.png"/>
+    </channel>
+    <channel id="54">
+        <display-name>Cinemax Moremax</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/54.png"/>
+    </channel>
+    <channel id="55">
+        <display-name>Starz Cinema</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/55.png"/>
+    </channel>
+    <channel id="56">
+        <display-name>Starz East</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/56.png"/>
+    </channel>
+    <channel id="57">
+        <display-name>Starz Encore</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/57.png"/>
+    </channel>
+    <channel id="58">
+        <display-name>Investigation Discovery</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/58.png"/>
+    </channel>
+    <channel id="59">
+        <display-name>Cinemax</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/59.png"/>
+    </channel>
+    <channel id="60">
+        <display-name>Cinemax 5 Star</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/60.png"/>
+    </channel>
+    <channel id="61">
+        <display-name>Disney</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/61.png"/>
+    </channel>
+    <channel id="62">
+        <display-name>CBC</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/62.png"/>
+    </channel>
+    <channel id="63">
+        <display-name>DIY</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/63.png"/>
+    </channel>
+    <channel id="64">
+        <display-name>Food Network</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/64.png"/>
+    </channel>
+    <channel id="65">
+        <display-name>Channel 65</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/65.png"/>
+    </channel>
+    <channel id="66">
+        <display-name>Channel 66</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/66.png"/>
+    </channel>
+    <channel id="67">
+        <display-name>Channel 67</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/67.png"/>
+    </channel>
+    <channel id="68">
+        <display-name>Channel 68</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/68.png"/>
+    </channel>
+    <channel id="69">
+        <display-name>Channel 69</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/69.png"/>
+    </channel>
+    <channel id="70">
+        <display-name>US West</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="71">
+        <display-name>US West</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="72">
+        <display-name>US West</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="73">
+        <display-name>Spectrum Sportsnet</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="74">
+        <display-name>MMA-TV 01</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/74.png"/>
+    </channel>
+    <channel id="75">
+        <display-name>MMA-TV 02</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/75.png"/>
+    </channel>
+    <channel id="76">
+        <display-name>Channel 76</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/76.png"/>
+    </channel>
+    <channel id="77">
+        <display-name>Channel 77</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/77.png"/>
+    </channel>
+    <channel id="78">
+        <display-name>Channel 78</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/78.png"/>
+    </channel>
+    <channel id="79">
+        <display-name>Channel 79</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/79.png"/>
+    </channel>
+    <channel id="80">
+        <display-name>PAC-12 Network</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/80.png"/>
+    </channel>
+    <channel id="81">
+        <display-name>SEC Network (ESPN)</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/81.png"/>
+    </channel>
+    <channel id="82">
+        <display-name>Big10 Network</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/82.png"/>
+    </channel>
+    <channel id="83">
+        <display-name>Nat Geo Wild</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/83.png"/>
+    </channel>
+    <channel id="84">
+        <display-name>Channel 84</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/84.png"/>
+    </channel>
+    <channel id="85">
+        <display-name>Channel 85</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/85.png"/>
+    </channel>
+    <channel id="86">
+        <display-name>Channel 86</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/86.png"/>
+    </channel>
+    <channel id="87">
+        <display-name>Channel 87</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/87.png"/>
+    </channel>
+    <channel id="88">
+        <display-name>Euro Sat/DE</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="89">
+        <display-name>Euro Sat/DE</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/89.png"/>
+    </channel>
+    <channel id="90">
+        <display-name>NL/EU</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/90.png"/>
+    </channel>
+    <channel id="91">
+        <display-name>Euro Sat</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="92">
+        <display-name>Euro Sat</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="93">
+        <display-name>UK</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="94">
+        <display-name>Euro Sat</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="95">
+        <display-name>NL</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="96">
+        <display-name>NL</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="97">
+        <display-name>UK</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/97.png"/>
+    </channel>
+    <channel id="98">
+        <display-name>UK</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/98.png"/>
+    </channel>
+    <channel id="99">
+        <display-name>EU</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/99.png"/>
+    </channel>
+    <channel id="100">
+        <display-name>Movistar Deportes 1</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="101">
+        <display-name>Movistar Deportes 2</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="102">
+        <display-name>Sport TV 1</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="103">
+        <display-name></display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/103.png"/>
+    </channel>
+    <channel id="104">
+        <display-name></display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/104.png"/>
+    </channel>
+    <channel id="105">
+        <display-name>EUROSPORT 1</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/105.png"/>
+    </channel>
+    <channel id="106">
+        <display-name>EuroSport 2</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/106.png"/>
+    </channel>
+    <channel id="107">
+        <display-name>Eir Sport 2</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/107.png"/>
+    </channel>
+    <channel id="108">
+        <display-name>BT Sport 1 HD</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/108.png"/>
+    </channel>
+    <channel id="109">
+        <display-name>BT Sport 2 HD</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/109.png"/>
+    </channel>
+    <channel id="110">
+        <display-name>BT Sport 3 HD</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/110.png"/>
+    </channel>
+    <channel id="111">
+        <display-name>BT Sport ESPN HD</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/111.png"/>
+    </channel>
+    <channel id="112">
+        <display-name>SSN</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/112.png"/>
+    </channel>
+    <channel id="113">
+        <display-name>Sky Sports Main Event</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/113.png"/>
+    </channel>
+    <channel id="114">
+        <display-name>Sky Sports Cricket</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/114.png"/>
+    </channel>
+    <channel id="115">
+        <display-name>Sky Sports Action</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/115.png"/>
+    </channel>
+    <channel id="116">
+        <display-name>Sky Sports Golf</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/116.png"/>
+    </channel>
+    <channel id="117">
+        <display-name>Sky Sports PL</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/117.png"/>
+    </channel>
+    <channel id="118">
+        <display-name>Sky Sports F1 UK</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/118.png"/>
+    </channel>
+    <channel id="119">
+        <display-name>Sky Sports Mix</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/119.png"/>
+    </channel>
+    <channel id="120">
+        <display-name>Sky Sports Football</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/120.png"/>
+    </channel>
+    <channel id="121">
+        <display-name>Sky Sports Arena</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/121.png"/>
+    </channel>
+    <channel id="122">
+        <display-name>Racing UK</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/122.png"/>
+    </channel>
+    <channel id="123">
+        <display-name>UFC Fight Pass 24-7</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/"/>
+    </channel>
+    <channel id="124">
+        <display-name>Channel 124</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/124.png"/>
+    </channel>
+    <channel id="125">
+        <display-name>Channel 125</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/125.png"/>
+    </channel>
+    <channel id="126">
+        <display-name>Channel 126</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/126.png"/>
+    </channel>
+    <channel id="127">
+        <display-name>Channel 127</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/127.png"/>
+    </channel>
+    <channel id="128">
+        <display-name>Channel 128</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/128.png"/>
+    </channel>
+    <channel id="129">
+        <display-name>Channel 129</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/129.png"/>
+    </channel>
+    <channel id="130">
+        <display-name>Channel 130</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/130.png"/>
+    </channel>
+    <channel id="131">
+        <display-name>Channel 131</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/131.png"/>
+    </channel>
+    <channel id="132">
+        <display-name>Channel 132</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/132.png"/>
+    </channel>
+    <channel id="133">
+        <display-name>Channel 133</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/133.png"/>
+    </channel>
+    <channel id="134">
+        <display-name>Channel 134</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/134.png"/>
+    </channel>
+    <channel id="135">
+        <display-name>Channel 135</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/135.png"/>
+    </channel>
+    <channel id="136">
+        <display-name>Channel 136</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/136.png"/>
+    </channel>
+    <channel id="137">
+        <display-name>Channel 137</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/137.png"/>
+    </channel>
+    <channel id="138">
+        <display-name>Channel 138</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/138.png"/>
+    </channel>
+    <channel id="139">
+        <display-name>Channel 139</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/139.png"/>
+    </channel>
+    <channel id="140">
+        <display-name>Channel 140</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/140.png"/>
+    </channel>
+    <channel id="141">
+        <display-name>Channel 141</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/141.png"/>
+    </channel>
+    <channel id="142">
+        <display-name>Channel 142</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/142.png"/>
+    </channel>
+    <channel id="143">
+        <display-name>Channel 143</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/143.png"/>
+    </channel>
+    <channel id="144">
+        <display-name>Channel 144</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/144.png"/>
+    </channel>
+    <channel id="145">
+        <display-name>Channel 145</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/145.png"/>
+    </channel>
+    <channel id="146">
+        <display-name>Channel 146</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/146.png"/>
+    </channel>
+    <channel id="147">
+        <display-name>Channel 147</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/147.png"/>
+    </channel>
+    <channel id="148">
+        <display-name>Channel 148</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/148.png"/>
+    </channel>
+    <channel id="149">
+        <display-name>Channel 149</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/149.png"/>
+    </channel>
+    <channel id="150">
+        <display-name>Channel 150</display-name>
+        <icon src="https://fast-guide.smoothstreams.tv/aseets/images/channels/150.png"/>
+    </channel>
+    <programme start="20180825200000 -0500" stop="20180825220000 -0500" channel="1">
+        <title lang="en">NWSL: Washington Spirit vs Portland Thorns</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826200000 -0500" stop="20180826230000 -0500" channel="2">
+        <title lang="en">MLB: New York Yankees at Baltimore Orioles</title>
+        <desc lang="en">MLB: New York Yankees at Baltimore Orioles</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825190000 -0500" stop="20180825220000 -0500" channel="2">
+        <title lang="en">NCAAF: North Carolina A&amp;T vs Jacksonville State</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827120000 -0500" stop="20180827180000 -0500" channel="2">
+        <title lang="en">Tennis: US Open, Round 1</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825223000 -0500" stop="20180826010000 -0500" channel="2">
+        <title lang="en">Boxing: Raymundo Beltran vs. Jose Pedraza (US Coverage)</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827100000 -0500" stop="20180827120000 -0500" channel="3">
+        <title lang="en">First Take</title>
+        <desc lang="en">Sports journalists and former players participate in lively debates as they tackle controversial
+            topics in the world of sports; issues are thoroughly discussed and all sides of an argument are presented in
+            an engaging and entertaining manner.
+        </desc>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825150000 -0500" stop="20180825170000 -0500" channel="3">
+        <title lang="en">Tennis: WTA New Haven, Final</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826083000 -0500" stop="20180826090000 -0500" channel="3">
+        <title lang="en">F1: Belgian GP, On the Grid</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825220000 -0500" stop="20180826010000 -0500" channel="3">
+        <title lang="en">NCAAF: Wyoming at New Mexico State</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828100000 -0500" stop="20180828120000 -0500" channel="3">
+        <title lang="en">First Take</title>
+        <desc lang="en">Sports journalists and former players participate in lively debates as they tackle controversial
+            topics in the world of sports; issues are thoroughly discussed and all sides of an argument are presented in
+            an engaging and entertaining manner.
+        </desc>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825120000 -0500" stop="20180825140000 -0500" channel="3">
+        <title lang="en">Serie A: Juventus vs Lazio</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826090000 -0500" stop="20180826110000 -0500" channel="3">
+        <title lang="en">F1: Belgian GP</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825170000 -0500" stop="20180825190000 -0500" channel="3">
+        <title lang="en">Tennis: ATP Winston-Salem Open, Final</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827180000 -0500" stop="20180827230000 -0500" channel="3">
+        <title lang="en">Tennis: US Open, Round 1</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825160000 -0500" stop="20180825180000 -0500" channel="4">
+        <title lang="en">Women's College Soccer: UCLA at Penn State</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825190000 -0500" stop="20180825220000 -0500" channel="5">
+        <title lang="en">MLB: Atlanta Braves at Miami Marlins</title>
+        <desc lang="en">MLB: Atlanta Braves at Miami Marlins</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826140000 -0500" stop="20180826143000 -0500" channel="5">
+        <title lang="en">NASCAR Camping World Truck Series: Chevrolet Silverado 250, Pre Race</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825160000 -0500" stop="20180825190000 -0500" channel="5">
+        <title lang="en">MLB: Washington Nationals at New York Mets</title>
+        <desc lang="en">MLB: Washington Nationals at New York Mets</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825220000 -0500" stop="20180826000000 -0500" channel="5">
+        <title lang="en">Ultimate Fight Night 135: Gaethje vs Vick</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826093000 -0500" stop="20180826113000 -0500" channel="5">
+        <title lang="en">1.BL: Mainz 05 vs Stuttgart</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826213000 -0500" stop="20180826233000 -0500" channel="5">
+        <title lang="en">MLS: Portland Timbers at Seattle Sounders FC</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826190000 -0500" stop="20180826213000 -0500" channel="5">
+        <title lang="en">MLS: New York Red Bulls at D.C. United</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825123000 -0500" stop="20180825143000 -0500" channel="5">
+        <title lang="en">1.BL: Borussia M'gladbach vs Bayer Leverkusen</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826143000 -0500" stop="20180826170000 -0500" channel="5">
+        <title lang="en">NASCAR Camping World Truck Series: Chevrolet Silverado 250</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825220000 -0500" stop="20180826000000 -0500" channel="6">
+        <title lang="en">Liga MX: Monterrey vs Morelia</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825180000 -0500" stop="20180825190000 -0500" channel="6">
+        <title lang="en">NASCAR Camping World Truck Series Chevrolet Silverado 250, Qualifying</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825130000 -0500" stop="20180825160000 -0500" channel="6">
+        <title lang="en">Racing: Saratoga</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826150000 -0500" stop="20180826183000 -0500" channel="6">
+        <title lang="en">Racing: Saratoga</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830160000 -0500" stop="20180830183000 -0500" channel="6">
+        <title lang="en">Racing: Saratoga</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827160000 -0500" stop="20180827180000 -0500" channel="6">
+        <title lang="en">Racing: Saratoga</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829160000 -0500" stop="20180829183000 -0500" channel="6">
+        <title lang="en">Racing: Saratoga</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825200000 -0500" stop="20180825220000 -0500" channel="6">
+        <title lang="en">Ultimate Fight Night 135: Gaethje vs Vick, Prelims</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825160000 -0500" stop="20180825190000 -0500" channel="7">
+        <title lang="en">NFL Pre W3: Tennessee Titans at Pittsburgh Steelers</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828090000 -0500" stop="20180828123000 -0500" channel="11">
+        <title lang="en">The Dan Patrick Show</title>
+        <desc lang="en">A sports talk show hosted by former ESPN Sportscenter anchor Dan Patrick, who interviews the
+            newsmakers of the day and opines on various topics in the world of sports and beyond; regular guests include
+            Charles Barkley, Reggie Miller and John Smoltz.
+        </desc>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825150000 -0500" stop="20180825180000 -0500" channel="11">
+        <title lang="en">NASCAR Xfinity Series: Johnsonville 180</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825143000 -0500" stop="20180825150000 -0500" channel="11">
+        <title lang="en">NASCAR Xfinity Series: Johnsonville 180, Pre Race</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827090000 -0500" stop="20180827123000 -0500" channel="11">
+        <title lang="en">The Dan Patrick Show</title>
+        <desc lang="en">A sports talk show hosted by former ESPN Sportscenter anchor Dan Patrick, who interviews the
+            newsmakers of the day and opines on various topics in the world of sports and beyond; regular guests include
+            Charles Barkley, Reggie Miller and John Smoltz.
+        </desc>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825200000 -0500" stop="20180825203000 -0500" channel="11">
+        <title lang="en">IndyCar: Bommarito Automotive Group 500, Pre Race</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825203000 -0500" stop="20180825223000 -0500" channel="11">
+        <title lang="en">IndyCar: Bommarito Automotive Group 500</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830090000 -0500" stop="20180830123000 -0500" channel="11">
+        <title lang="en">The Dan Patrick Show</title>
+        <desc lang="en">A sports talk show hosted by former ESPN Sportscenter anchor Dan Patrick, who interviews the
+            newsmakers of the day and opines on various topics in the world of sports and beyond; regular guests include
+            Charles Barkley, Reggie Miller and John Smoltz.
+        </desc>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825123000 -0500" stop="20180825133000 -0500" channel="11">
+        <title lang="en">NASCAR Xfinity Series: Johnsonville 180, Qualifying</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830140000 -0500" stop="20180830160000 -0500" channel="11">
+        <title lang="en">Athletics: IAAF Diamond League</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829090000 -0500" stop="20180829123000 -0500" channel="11">
+        <title lang="en">The Dan Patrick Show</title>
+        <desc lang="en">A sports talk show hosted by former ESPN Sportscenter anchor Dan Patrick, who interviews the
+            newsmakers of the day and opines on various topics in the world of sports and beyond; regular guests include
+            Charles Barkley, Reggie Miller and John Smoltz.
+        </desc>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825223000 -0500" stop="20180825230000 -0500" channel="11">
+        <title lang="en">IndyCar: Bommarito Automotive Group 500, Post Race</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826190000 -0500" stop="20180826210000 -0500" channel="12">
+        <title lang="en">PGA Tour Champions: Boeing Classic - Final Round</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826140000 -0500" stop="20180826160000 -0500" channel="12">
+        <title lang="en">PGA Web.com Tour: Nationwide Children's Hospital Championship - Final Round</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826070000 -0500" stop="20180826113000 -0500" channel="12">
+        <title lang="en">EPGA Tour: D+D Real Czech Masters - Final Round</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825200000 -0500" stop="20180825220000 -0500" channel="12">
+        <title lang="en">PGA Web.com Tour: Nationwide Children's Hospital Championship - Round 3 (Taped)</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825150000 -0500" stop="20180825180000 -0500" channel="12">
+        <title lang="en">LPGA Tour: CP Women's Open - Round 3</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825180000 -0500" stop="20180825200000 -0500" channel="12">
+        <title lang="en">PGA Tour Champions: Boeing Classic - Round 2</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826160000 -0500" stop="20180826190000 -0500" channel="12">
+        <title lang="en">LPGA Tour: CP Women's Open - Final Round</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826120000 -0500" stop="20180826134500 -0500" channel="12">
+        <title lang="en">PGA Tour: The Northern Trust - Final Round</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825130000 -0500" stop="20180825150000 -0500" channel="12">
+        <title lang="en">PGA Tour: The Northern Trust - Round 3</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825080000 -0500" stop="20180825123000 -0500" channel="12">
+        <title lang="en">EPGA Tour: D+D Real Czech Masters - Round 3</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826100000 -0500" stop="20180826110000 -0500" channel="14">
+        <title lang="en">Motocross MXGP: Sevlievo</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826090000 -0500" stop="20180826100000 -0500" channel="14">
+        <title lang="en">Motocross MX2: Sevlievo</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825170000 -0500" stop="20180825190000 -0500" channel="14">
+        <title lang="en">PWBA Bowling: Players Championship</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825193000 -0500" stop="20180825223000 -0500" channel="14">
+        <title lang="en">NCAAF: Hawaii at Colorado State</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828220000 -0500" stop="20180828230000 -0500" channel="15">
+        <title lang="en">Wrestling: Ring of Honor</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830220000 -0500" stop="20180830230000 -0500" channel="15">
+        <title lang="en">Wrestling: WrestleCentre Voltage</title>
+        <desc lang="en">Canada's largest pro wrestling promotion featuring established stars such as John Hennigan,
+            Christopher Daniels and Colt Cabana.
+        </desc>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825110000 -0500" stop="20180825130000 -0500" channel="16">
+        <title lang="en">Ligue 1: PSG vs Angers SCO</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825220000 -0500" stop="20180826000000 -0500" channel="17">
+        <title lang="en">MLS: Vancouver Whitecaps at San Jose Earthquakes</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825123000 -0500" stop="20180825143000 -0500" channel="17">
+        <title lang="en">EPL: Liverpool vs Brighton &amp; Hove Albion</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827160000 -0500" stop="20180827190000 -0500" channel="18">
+        <title lang="en">Prime Time Sports with Bob McCown</title>
+        <desc lang="en">Bob McCown discusses the latest issues and stories from around the world of sports.</desc>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826160000 -0500" stop="20180826190000 -0500" channel="18">
+        <title lang="en">NFL Pre W3: Cincinnati Bengals at Buffalo Bills</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828160000 -0500" stop="20180828190000 -0500" channel="18">
+        <title lang="en">Prime Time Sports with Bob McCown</title>
+        <desc lang="en">Bob McCown discusses the latest issues and stories from around the world of sports.</desc>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829160000 -0500" stop="20180829190000 -0500" channel="18">
+        <title lang="en">Prime Time Sports with Bob McCown</title>
+        <desc lang="en">Bob McCown discusses the latest issues and stories from around the world of sports.</desc>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830160000 -0500" stop="20180830190000 -0500" channel="18">
+        <title lang="en">Prime Time Sports with Bob McCown</title>
+        <desc lang="en">Bob McCown discusses the latest issues and stories from around the world of sports.</desc>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826160000 -0500" stop="20180826190000 -0500" channel="19">
+        <title lang="en">MLB: San Diego Padres at Los Angeles Dodgers</title>
+        <desc lang="en">MLB: San Diego Padres at Los Angeles Dodgers</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825190000 -0500" stop="20180825220000 -0500" channel="19">
+        <title lang="en">MLB: New York Yankees at Baltimore Orioles</title>
+        <desc lang="en">MLB: New York Yankees at Baltimore Orioles</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825160000 -0500" stop="20180825190000 -0500" channel="19">
+        <title lang="en">MLB: Philadelphia Phillies at Toronto Blue Jays</title>
+        <desc lang="en">MLB: Philadelphia Phillies at Toronto Blue Jays</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826130000 -0500" stop="20180826160000 -0500" channel="19">
+        <title lang="en">MLB: Philadelphia Phillies at Toronto Blue Jays</title>
+        <desc lang="en">MLB: Philadelphia Phillies at Toronto Blue Jays</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825200000 -0500" stop="20180825203000 -0500" channel="20">
+        <title lang="en">IndyCar: Bommarito Automotive Group 500, Pre Race</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825143000 -0500" stop="20180825150000 -0500" channel="20">
+        <title lang="en">NASCAR Xfinity Series: Johnsonville 180, Pre Race</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825150000 -0500" stop="20180825180000 -0500" channel="20">
+        <title lang="en">NASCAR Xfinity Series: Johnsonville 180</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826141500 -0500" stop="20180826171500 -0500" channel="20">
+        <title lang="en">MLB: Cincinnati Reds at Chicago Cubs</title>
+        <desc lang="en">MLB: Cincinnati Reds at Chicago Cubs</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826010000 -0500" stop="20180826040000 -0500" channel="20">
+        <title lang="en">AFL: Melbourne vs. GWS Giants</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826120000 -0500" stop="20180826140000 -0500" channel="20">
+        <title lang="en">1.BL: Borussia Dortmund vs RB Leipzig</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825223000 -0500" stop="20180825230000 -0500" channel="20">
+        <title lang="en">IndyCar: Bommarito Automotive Group 500, Post Race</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825203000 -0500" stop="20180825223000 -0500" channel="20">
+        <title lang="en">IndyCar: Bommarito Automotive Group 500</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825153000 -0500" stop="20180825183000 -0500" channel="21">
+        <title lang="en">CFL: Winnipeg Blue Bombers at Calgary Stampeders</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826110000 -0500" stop="20180826113000 -0500" channel="21">
+        <title lang="en">F1: Belgian GP, Post Race</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826140000 -0500" stop="20180826160000 -0500" channel="21">
+        <title lang="en">F1: Belgian GP (Taped)</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826090000 -0500" stop="20180826110000 -0500" channel="21">
+        <title lang="en">F1: Belgian GP</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825200000 -0500" stop="20180825220000 -0500" channel="21">
+        <title lang="en">MLS: Montreal Impact at Toronto FC</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826073000 -0500" stop="20180826083000 -0500" channel="21">
+        <title lang="en">F1: Belgian GP, Pit Lane Live</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826083000 -0500" stop="20180826090000 -0500" channel="21">
+        <title lang="en">F1: Belgian GP, On the Grid</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826160000 -0500" stop="20180826190000 -0500" channel="21">
+        <title lang="en">NFL Pre W3: Cincinnati Bengals at Buffalo Bills</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826200000 -0500" stop="20180826230000 -0500" channel="21">
+        <title lang="en">NFL Pre W3: Arizona Cardinals at Dallas Cowboys</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825220000 -0500" stop="20180826010000 -0500" channel="21">
+        <title lang="en">CFL: Saskatchewan Roughriders at BC Lions</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825220000 -0500" stop="20180826000000 -0500" channel="22">
+        <title lang="en">Liga MX: Necaxa vs Tigres UANL</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830114500 -0500" stop="20180830130000 -0500" channel="22">
+        <title lang="en">UCL: Draw (ES Coverage)</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830183000 -0500" stop="20180830203000 -0500" channel="22">
+        <title lang="en">Copa Libertadores: Libertad vs Boca Juniors</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825141500 -0500" stop="20180825161500 -0500" channel="22">
+        <title lang="en">La Liga: Atl&amp;eacute;tico Madrid vs Rayo Vallecano</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826090000 -0500" stop="20180826110000 -0500" channel="22">
+        <title lang="en">F1: Belgian GP</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825161500 -0500" stop="20180825181500 -0500" channel="22">
+        <title lang="en">La Liga: Real Valladolid vs Barcelona</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826170000 -0500" stop="20180826190000 -0500" channel="22">
+        <title lang="en">Liga MX: Toluca vs Le&amp;oacute;n</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827161500 -0500" stop="20180827180000 -0500" channel="22">
+        <title lang="en">La Liga: Athletic Club vs Huesca</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827141500 -0500" stop="20180827161500 -0500" channel="22">
+        <title lang="en">La Liga: Levante vs Celta de Vigo</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830204500 -0500" stop="20180830224500 -0500" channel="22">
+        <title lang="en">Copa Libertadores: Palmeiras vs Cerro Porte&amp;ntilde;o</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828200000 -0500" stop="20180828220000 -0500" channel="22">
+        <title lang="en">Copa MX: Am&amp;eacute;rica vs Dorados</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826190000 -0500" stop="20180826210000 -0500" channel="22">
+        <title lang="en">Liga MX: Santos Laguna vs Cruz Azul</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828220000 -0500" stop="20180829000000 -0500" channel="22">
+        <title lang="en">Copa MX: Morelia vs Guadalajara</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826133000 -0500" stop="20180826153000 -0500" channel="22">
+        <title lang="en">Liga MX: Quer&amp;eacute;taro vs Lobos BUAP</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829200000 -0500" stop="20180829220000 -0500" channel="22">
+        <title lang="en">Copa MX: Santos Laguna vs Pachuca</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829220000 -0500" stop="20180830000000 -0500" channel="22">
+        <title lang="en">Copa MX: Atlas vs Cruz Azul</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829150000 -0500" stop="20180829170000 -0500" channel="22">
+        <title lang="en">UCLQ: PSV vs BATE Borisov</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825180000 -0500" stop="20180825200000 -0500" channel="23">
+        <title lang="en">Liga MX: Pachuca vs Puebla</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825200000 -0500" stop="20180825220000 -0500" channel="23">
+        <title lang="en">Liga MX: Am&amp;eacute;rica vs Pumas UNAM</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826141500 -0500" stop="20180826161500 -0500" channel="23">
+        <title lang="en">La Liga: Sevilla vs Villarreal</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829150000 -0500" stop="20180829170000 -0500" channel="23">
+        <title lang="en">UCLQ: PAOK vs Benfica</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826121500 -0500" stop="20180826141500 -0500" channel="23">
+        <title lang="en">La Liga: Espanyol vs Valencia</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828150000 -0500" stop="20180828170000 -0500" channel="23">
+        <title lang="en">UCLQ: Dinamo Zagreb vs Young Boys</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828220000 -0500" stop="20180829000000 -0500" channel="23">
+        <title lang="en">Copa MX: Necaxa vs Pumas UNAM</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826161500 -0500" stop="20180826181500 -0500" channel="23">
+        <title lang="en">La Liga: Girona vs Real Madrid</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829220000 -0500" stop="20180830000000 -0500" channel="23">
+        <title lang="en">Copa MX: Ju&amp;aacute;rez vs Toluca</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829200000 -0500" stop="20180829220000 -0500" channel="23">
+        <title lang="en">Copa MX: Cafetaleros de Tapachula vs Tigres UANL</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825223000 -0500" stop="20180826010000 -0500" channel="23">
+        <title lang="en">Boxing: Raymundo Beltran vs. Jose Pedraza (US Coverage)</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826130000 -0500" stop="20180826160000 -0500" channel="24">
+        <title lang="en">MLB: Atlanta Braves at Miami Marlins</title>
+        <desc lang="en">MLB: Atlanta Braves at Miami Marlins</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825190000 -0500" stop="20180825220000 -0500" channel="24">
+        <title lang="en">MLB: Oakland Athletics at Minnesota Twins</title>
+        <desc lang="en">MLB: Oakland Athletics at Minnesota Twins</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825130000 -0500" stop="20180825160000 -0500" channel="24">
+        <title lang="en">MLB: New York Yankees at Baltimore Orioles</title>
+        <desc lang="en">MLB: New York Yankees at Baltimore Orioles</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826130000 -0500" stop="20180826160000 -0500" channel="25">
+        <title lang="en">MLB: Boston Red Sox at Tampa Bay Rays</title>
+        <desc lang="en">MLB: Boston Red Sox at Tampa Bay Rays</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825141500 -0500" stop="20180825171500 -0500" channel="25">
+        <title lang="en">MLB: Cincinnati Reds at Chicago Cubs</title>
+        <desc lang="en">MLB: Cincinnati Reds at Chicago Cubs</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825191500 -0500" stop="20180825221500 -0500" channel="25">
+        <title lang="en">MLB: Cleveland Indians at Kansas City Royals</title>
+        <desc lang="en">MLB: Cleveland Indians at Kansas City Royals</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827110000 -0500" stop="20180827203000 -0500" channel="25">
+        <title lang="en">Tennis: US Open Mix Channel</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828200000 -0500" stop="20180828220000 -0500" channel="26">
+        <title lang="en">WWE Smackdown</title>
+        <desc lang="en">Debuting in 1999, SmackDown has traveled to over 150 different venues to feature some of the top
+            wrestlers in the industry compete for the prized titles as storylines continue to build towards upcoming
+            PPVs or build on the previous event.
+        </desc>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827200000 -0500" stop="20180827230000 -0500" channel="26">
+        <title lang="en">WWE Monday Night Raw</title>
+        <desc lang="en">Since 1993, Monday Night Raw has traveled to more than 200 different locations and featured
+            numerous fighters and personalities along with the lovely divas; Vince McMahon created this international
+            phenomenon, featuring the top wrestlers.
+        </desc>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825210000 -0500" stop="20180826000000 -0500" channel="27">
+        <title lang="en">Live PD</title>
+        <desc lang="en">Dan Abrams, ABC News chief legal affairs anchor, hosts minute-by-minute live access to busy
+            urban and rural police forces around the country, with handheld, dash and fixed rig cameras, capturing what
+            police officers face on a typical Friday night.
+        </desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180901210000 -0500" stop="20180902000000 -0500" channel="27">
+        <title lang="en">Live PD</title>
+        <desc lang="en">Dan Abrams, ABC News chief legal affairs anchor, hosts minute-by-minute live access to busy
+            urban and rural police forces around the country, with handheld, dash and fixed rig cameras, capturing what
+            police officers face on a typical Friday night.
+        </desc>
+        <date>20180901</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830220000 -0500" stop="20180830230000 -0500" channel="27">
+        <title lang="en">Live PD Presents: PD Cam</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180831210000 -0500" stop="20180901000000 -0500" channel="27">
+        <title lang="en">Live PD</title>
+        <desc lang="en">Dan Abrams, ABC News chief legal affairs anchor, hosts minute-by-minute live access to busy
+            urban and rural police forces around the country, with handheld, dash and fixed rig cameras, capturing what
+            police officers face on a typical Friday night.
+        </desc>
+        <date>20180831</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827120000 -0500" stop="20180827193000 -0500" channel="27">
+        <title lang="en">Tennis: US Open Network Simulcast</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827110000 -0500" stop="20180827203000 -0500" channel="28">
+        <title lang="en">Tennis: US Open Court Channel 1</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825210000 -0500" stop="20180826000000 -0500" channel="28">
+        <title lang="en">MLB: San Diego Padres at Los Angeles Dodgers</title>
+        <desc lang="en">MLB: San Diego Padres at Los Angeles Dodgers</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825160000 -0500" stop="20180825190000 -0500" channel="28">
+        <title lang="en">MLB: Texas Rangers at San Francisco Giants</title>
+        <desc lang="en">MLB: Texas Rangers at San Francisco Giants</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827230000 -0500" stop="20180828000000 -0500" channel="28">
+        <title lang="en">Conan</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826140000 -0500" stop="20180826170000 -0500" channel="28">
+        <title lang="en">MLB: Oakland Athletics at Minnesota Twins</title>
+        <desc lang="en">MLB: Oakland Athletics at Minnesota Twins</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827110000 -0500" stop="20180827203000 -0500" channel="29">
+        <title lang="en">Tennis: US Open Court Channel 2</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828150000 -0500" stop="20180828170000 -0500" channel="29">
+        <title lang="en">UCLQ: Dynamo Kyiv vs Ajax</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829150000 -0500" stop="20180829170000 -0500" channel="29">
+        <title lang="en">UCLQ: PAOK vs Benfica</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827110000 -0500" stop="20180827203000 -0500" channel="30">
+        <title lang="en">Tennis: US Open Court Channel 3</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825180000 -0500" stop="20180825210000 -0500" channel="30">
+        <title lang="en">MLB: Boston Red Sox at Tampa Bay Rays</title>
+        <desc lang="en">MLB: Boston Red Sox at Tampa Bay Rays</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826141500 -0500" stop="20180826171500 -0500" channel="30">
+        <title lang="en">MLB: Cleveland Indians at Kansas City Royals</title>
+        <desc lang="en">MLB: Cleveland Indians at Kansas City Royals</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826150000 -0500" stop="20180826180000 -0500" channel="31">
+        <title lang="en">MLB: St. Louis Cardinals at Colorado Rockies</title>
+        <desc lang="en">MLB: St. Louis Cardinals at Colorado Rockies</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825200000 -0500" stop="20180825230000 -0500" channel="31">
+        <title lang="en">MLB: Seattle Mariners at Arizona Diamondbacks</title>
+        <desc lang="en">MLB: Seattle Mariners at Arizona Diamondbacks</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827110000 -0500" stop="20180827203000 -0500" channel="31">
+        <title lang="en">Tennis: US Open Court Channel 4</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827110000 -0500" stop="20180827203000 -0500" channel="32">
+        <title lang="en">Tennis: US Open Court Channel 5</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825200000 -0500" stop="20180825230000 -0500" channel="32">
+        <title lang="en">MLB: St. Louis Cardinals at Colorado Rockies</title>
+        <desc lang="en">MLB: St. Louis Cardinals at Colorado Rockies</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826160000 -0500" stop="20180826190000 -0500" channel="32">
+        <title lang="en">MLB: Texas Rangers at San Francisco Giants</title>
+        <desc lang="en">MLB: Texas Rangers at San Francisco Giants</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827200000 -0500" stop="20180827220000 -0500" channel="34">
+        <title lang="en">American Ninja Warrior</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828233000 -0500" stop="20180829003000 -0500" channel="34">
+        <title lang="en">The Tonight Show Starring Jimmy Fallon</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829233000 -0500" stop="20180830003000 -0500" channel="34">
+        <title lang="en">The Tonight Show Starring Jimmy Fallon</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825123000 -0500" stop="20180825143000 -0500" channel="34">
+        <title lang="en">EPL: Liverpool vs Brighton &amp; Hove Albion</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825160000 -0500" stop="20180825180000 -0500" channel="34">
+        <title lang="en">Racing: Breeders' Cup Challenge Series - Travers Stakes</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826200000 -0500" stop="20180826230000 -0500" channel="34">
+        <title lang="en">NFL Pre W3: Arizona Cardinals at Dallas Cowboys</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828233000 -0500" stop="20180829003000 -0500" channel="35">
+        <title lang="en">The Late Show With Stephen Colbert</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827210000 -0500" stop="20180827220000 -0500" channel="35">
+        <title lang="en">Salvation</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827220000 -0500" stop="20180827230000 -0500" channel="35">
+        <title lang="en">Elementary</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825200000 -0500" stop="20180825230000 -0500" channel="35">
+        <title lang="en">NFL Pre W3: New Orleans Saints at Los Angeles Chargers</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825150000 -0500" stop="20180825180000 -0500" channel="35">
+        <title lang="en">PGA Tour: The Northern Trust - Round 3</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826140000 -0500" stop="20180826180000 -0500" channel="35">
+        <title lang="en">PGA Tour: The Northern Trust - Final Round</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829233000 -0500" stop="20180830003000 -0500" channel="35">
+        <title lang="en">The Late Show With Stephen Colbert</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826200000 -0500" stop="20180826210000 -0500" channel="35">
+        <title lang="en">Big Brother</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829233000 -0500" stop="20180830003000 -0500" channel="36">
+        <title lang="en">Jimmy Kimmel Live</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828233000 -0500" stop="20180829003000 -0500" channel="36">
+        <title lang="en">Jimmy Kimmel Live</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826130000 -0500" stop="20180826160000 -0500" channel="42">
+        <title lang="en">MLB: Chicago White Sox at Detroit Tigers</title>
+        <desc lang="en">MLB: Chicago White Sox at Detroit Tigers</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825180000 -0500" stop="20180825210000 -0500" channel="42">
+        <title lang="en">MLB: Chicago White Sox at Detroit Tigers</title>
+        <desc lang="en">MLB: Chicago White Sox at Detroit Tigers</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825190000 -0500" stop="20180825220000 -0500" channel="43">
+        <title lang="en">MLB: Pittsburgh Pirates at Milwaukee Brewers</title>
+        <desc lang="en">MLB: Pittsburgh Pirates at Milwaukee Brewers</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826130000 -0500" stop="20180826160000 -0500" channel="43">
+        <title lang="en">MLB: Washington Nationals at New York Mets</title>
+        <desc lang="en">MLB: Washington Nationals at New York Mets</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825130000 -0500" stop="20180825150000 -0500" channel="43">
+        <title lang="en">Pro Motocross: Ironman, 1st Motos</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829093000 -0500" stop="20180829113000 -0500" channel="43">
+        <title lang="en">Cycling: Vuelta a Espana</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825210000 -0500" stop="20180825230000 -0500" channel="44">
+        <title lang="en">MLS: Real Salt Lake at Colorado Rapids</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826140000 -0500" stop="20180826170000 -0500" channel="44">
+        <title lang="en">MLB: Pittsburgh Pirates at Milwaukee Brewers</title>
+        <desc lang="en">MLB: Pittsburgh Pirates at Milwaukee Brewers</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825173000 -0500" stop="20180825203000 -0500" channel="45">
+        <title lang="en">NCAAF: Duquesne at Massachusetts</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826160000 -0500" stop="20180826190000 -0500" channel="45">
+        <title lang="en">MLB: Houston Astros at Los Angeles Angels</title>
+        <desc lang="en">MLB: Houston Astros at Los Angeles Angels</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826061500 -0500" stop="20180826103000 -0500" channel="46">
+        <title lang="en">MotoGP: Great Britain</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826161500 -0500" stop="20180826181500 -0500" channel="46">
+        <title lang="en">La Liga: Girona vs Real Madrid</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826110000 -0500" stop="20180826130000 -0500" channel="46">
+        <title lang="en">Ligue 1: Bordeaux vs Monaco</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825110000 -0500" stop="20180825130000 -0500" channel="46">
+        <title lang="en">Ligue 1: PSG vs Angers SCO</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825141500 -0500" stop="20180825161500 -0500" channel="46">
+        <title lang="en">La Liga: Atl&amp;eacute;tico Madrid vs Rayo Vallecano</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825161500 -0500" stop="20180825181500 -0500" channel="46">
+        <title lang="en">La Liga: Real Valladolid vs Barcelona</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826141500 -0500" stop="20180826161500 -0500" channel="46">
+        <title lang="en">La Liga: Sevilla vs Villarreal</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827210000 -0500" stop="20180827220000 -0500" channel="47">
+        <title lang="en">Better Call Saul</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826023000 -0500" stop="20180826053000 -0500" channel="47">
+        <title lang="en">AFL: St. Kilda Saints vs. North Melbourne Kangaroos</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826000000 -0500" stop="20180826020000 -0500" channel="47">
+        <title lang="en">NRL: Cronulla-Sutherland Sharks vs. Newcastle Knights</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827220000 -0500" stop="20180827230000 -0500" channel="47">
+        <title lang="en">Lodge 49</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826220000 -0500" stop="20180826230000 -0500" channel="47">
+        <title lang="en">Preacher</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828220000 -0500" stop="20180829000000 -0500" channel="47">
+        <title lang="en">Copa MX: Monterrey vs Venados</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826133000 -0500" stop="20180826160000 -0500" channel="47">
+        <title lang="en">Triathlon: ITU World Series, Men's Elite</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829183000 -0500" stop="20180829203000 -0500" channel="47">
+        <title lang="en">Copa Libertadores: River Plate vs Racing Club</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829204500 -0500" stop="20180829224500 -0500" channel="47">
+        <title lang="en">Copa Libertadores: Corinthians vs Colo-Colo</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826210000 -0500" stop="20180826220000 -0500" channel="47">
+        <title lang="en">Fear the Walking Dead</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828183000 -0500" stop="20180828203000 -0500" channel="47">
+        <title lang="en">Copa Libertadores: Santos vs Independiente</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826210000 -0500" stop="20180826220000 -0500" channel="48">
+        <title lang="en">Sharp Objects</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826220000 -0500" stop="20180826223000 -0500" channel="48">
+        <title lang="en">Ballers</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826223000 -0500" stop="20180826230000 -0500" channel="48">
+        <title lang="en">Insecure</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825220000 -0500" stop="20180826000000 -0500" channel="49">
+        <title lang="en">Liga MX: Monterrey vs Morelia</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825190000 -0500" stop="20180825210000 -0500" channel="49">
+        <title lang="en">MLS: New England Revolution at Philadelphia Union</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825203000 -0500" stop="20180825223000 -0500" channel="50">
+        <title lang="en">MLS: Minnesota United FC at Sporting Kansas City</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826160000 -0500" stop="20180826190000 -0500" channel="51">
+        <title lang="en">MLB: Seattle Mariners at Arizona Diamondbacks</title>
+        <desc lang="en">MLB: Seattle Mariners at Arizona Diamondbacks</desc>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825200000 -0500" stop="20180825230000 -0500" channel="51">
+        <title lang="en">Bare Knuckle Fighting Championship 2: A New Era</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825210000 -0500" stop="20180826000000 -0500" channel="53">
+        <title lang="en">MLB: Houston Astros at Los Angeles Angels</title>
+        <desc lang="en">MLB: Houston Astros at Los Angeles Angels</desc>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829000000 -0500" stop="20180829030000 -0500" channel="56">
+        <title lang="en">Big Brother After Dark</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827000000 -0500" stop="20180827030000 -0500" channel="56">
+        <title lang="en">Big Brother After Dark</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828000000 -0500" stop="20180828030000 -0500" channel="56">
+        <title lang="en">Big Brother After Dark</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830000000 -0500" stop="20180830030000 -0500" channel="56">
+        <title lang="en">Big Brother After Dark</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826200000 -0500" stop="20180826210000 -0500" channel="56">
+        <title lang="en">Power</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826000000 -0500" stop="20180826030000 -0500" channel="56">
+        <title lang="en">Big Brother After Dark</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827210000 -0500" stop="20180827220000 -0500" channel="59">
+        <title lang="en">Teen Mom 2</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827220000 -0500" stop="20180827230000 -0500" channel="59">
+        <title lang="en">Floribama Shore</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="720p">720p</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825200000 -0500" stop="20180825220000 -0500" channel="74">
+        <title lang="en">Ultimate Fight Night 135: Gaethje vs Vick, Prelims</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825183000 -0500" stop="20180825200000 -0500" channel="74">
+        <title lang="en">Ultimate Fight Night 135: Gaethje vs Vick, Early Prelims</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825220000 -0500" stop="20180826000000 -0500" channel="74">
+        <title lang="en">Ultimate Fight Night 135: Gaethje vs Vick</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825121500 -0500" stop="20180825141500 -0500" channel="76">
+        <title lang="en">La Liga: Deportivo Alav&amp;eacute;s vs Real Betis</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826144500 -0500" stop="20180826164500 -0500" channel="76">
+        <title lang="en">TSL: Besiktas vs Antalyaspor</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825144500 -0500" stop="20180825164500 -0500" channel="76">
+        <title lang="en">TSL: G&amp;ouml;ztepe vs Fenerbahce</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826090000 -0500" stop="20180826110000 -0500" channel="76">
+        <title lang="en">Ligue 1: Lille vs Guingamp</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825140000 -0500" stop="20180825160000 -0500" channel="78">
+        <title lang="en">Ligue 1: Montpellier vs Saint-&amp;Eacute;tienne</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826150000 -0500" stop="20180826170000 -0500" channel="78">
+        <title lang="en">Ligue 1: Olympique Marseille vs Rennes</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825130000 -0500" stop="20180825160000 -0500" channel="80">
+        <title lang="en">NFL Pre W3: Kansas City Chiefs at Chicago Bears</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825113000 -0500" stop="20180825123000 -0500" channel="88">
+        <title lang="en">1.BL: Alle Spiele, alle Tore</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827143000 -0500" stop="20180827163000 -0500" channel="88">
+        <title lang="en">2.BL: Hamburger SV vs Arminia Bielefeld</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829150000 -0500" stop="20180829170000 -0500" channel="88">
+        <title lang="en">UCLQ: Konferenz</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829170000 -0500" stop="20180829171500 -0500" channel="88">
+        <title lang="en">UCLQ: Alle Spiele, alle Tore</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826083000 -0500" stop="20180826090000 -0500" channel="88">
+        <title lang="en">F1: Belgian GP, On the Grid</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825123000 -0500" stop="20180825143000 -0500" channel="88">
+        <title lang="en">1.BL: Borussia M'gladbach vs Bayer Leverkusen</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826090000 -0500" stop="20180826110000 -0500" channel="88">
+        <title lang="en">F1: Belgian GP</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828143000 -0500" stop="20180828163000 -0500" channel="88">
+        <title lang="en">Friendly: Bayern M&amp;uuml;nchen vs Chicago Fire</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825130000 -0500" stop="20180825150000 -0500" channel="89">
+        <title lang="en">Segunda Divisoion: Reus Deportiu vs Real Zaragoza</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828170000 -0500" stop="20180828171500 -0500" channel="89">
+        <title lang="en">UCLQ: Alle Spiele, alle Tore</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826040000 -0500" stop="20180826053000 -0500" channel="89">
+        <title lang="en">MotoGP: Great Britain, Warm-ups</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829150000 -0500" stop="20180829170000 -0500" channel="89">
+        <title lang="en">UCLQ: Salzburg vs Crvena Zvezda</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826061500 -0500" stop="20180826103000 -0500" channel="89">
+        <title lang="en">MotoGP: Great Britain</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828150000 -0500" stop="20180828170000 -0500" channel="89">
+        <title lang="en">UCLQ: Konferenz</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829150000 -0500" stop="20180829170000 -0500" channel="90">
+        <title lang="en">UCLQ: PSV vs BATE Borisov</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826083000 -0500" stop="20180826103000 -0500" channel="90">
+        <title lang="en">EDL: Heerenveen vs Feyenoord</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826104500 -0500" stop="20180826124500 -0500" channel="90">
+        <title lang="en">EDL: AZ vs Vitesse</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825144500 -0500" stop="20180825164500 -0500" channel="90">
+        <title lang="en">EDL: PEC Zwolle vs PSV</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825123000 -0500" stop="20180825143000 -0500" channel="90">
+        <title lang="en">EDL: Ajax vs Emmen</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830123000 -0500" stop="20180830143000 -0500" channel="90">
+        <title lang="en">UELQ: Kobenhavn vs Atalanta</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826061500 -0500" stop="20180826081500 -0500" channel="90">
+        <title lang="en">EDL: Willem II vs Heracles</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828150000 -0500" stop="20180828170000 -0500" channel="90">
+        <title lang="en">UCLQ: Dynamo Kyiv vs Ajax</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830144500 -0500" stop="20180830164500 -0500" channel="90">
+        <title lang="en">UELQ: Bordeaux vs Gent</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826070000 -0500" stop="20180826093000 -0500" channel="91">
+        <title lang="en">2.BL: Konferenz</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825130000 -0500" stop="20180825180000 -0500" channel="91">
+        <title lang="en">Boxing: Jack Paskali vs Bernard Donfack</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826093000 -0500" stop="20180826100000 -0500" channel="91">
+        <title lang="en">2.BL: Alle Spiele, alle Tore</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826093000 -0500" stop="20180826113000 -0500" channel="92">
+        <title lang="en">1.BL: Mainz 05 vs Stuttgart</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826120000 -0500" stop="20180826140000 -0500" channel="92">
+        <title lang="en">1.BL: Borussia Dortmund vs RB Leipzig</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826140000 -0500" stop="20180826153000 -0500" channel="92">
+        <title lang="en">1.BL: Sky 90</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826060000 -0500" stop="20180826131500 -0500" channel="93">
+        <title lang="en">BTCC: Knockhill</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825173000 -0500" stop="20180825190000 -0500" channel="93">
+        <title lang="en">Match of the Day</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826161500 -0500" stop="20180826174500 -0500" channel="93">
+        <title lang="en">DTM: Misano, Race 2</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829143000 -0500" stop="20180829180000 -0500" channel="94">
+        <title lang="en">Pool: IPA Premier League</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830170000 -0500" stop="20180830173000 -0500" channel="94">
+        <title lang="en">The Premier League Show</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="hqlq">hqlq</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826073000 -0500" stop="20180826093000 -0500" channel="94">
+        <title lang="en">2.BL: Jahn Regensburg vs Holstein Kiel</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826083000 -0500" stop="20180826103000 -0500" channel="95">
+        <title lang="en">EDL: Utrecht vs VVV</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825234500 -0500" stop="20180826014500 -0500" channel="95">
+        <title lang="en">V8 Supercars: The Bend, Race 2</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825144500 -0500" stop="20180825164500 -0500" channel="95">
+        <title lang="en">EDL: NAC Breda vs Excelsior</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825123000 -0500" stop="20180825143000 -0500" channel="95">
+        <title lang="en">EDL: De Graafschap vs Groningen</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825161500 -0500" stop="20180825174500 -0500" channel="96">
+        <title lang="en">DTM: Misano, Race 1</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826133000 -0500" stop="20180826153000 -0500" channel="99">
+        <title lang="en">Liga NOS: Tondela vs Rio Ave</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826110000 -0500" stop="20180826130000 -0500" channel="99">
+        <title lang="en">Liga NOS: Vit&amp;oacute;ria Set&amp;uacute;bal vs Nacional</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828204500 -0500" stop="20180828224500 -0500" channel="99">
+        <title lang="en">Copa Libertadores: Atl&amp;eacute;tico Nacional vs Atl&amp;eacute;tico Tucum&amp;aacute;n
+        </title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825140000 -0500" stop="20180825160000 -0500" channel="99">
+        <title lang="en">Liga NOS: Benfica vs Sporting CP</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826190000 -0500" stop="20180826210000 -0500" channel="99">
+        <title lang="en">Superliga Argentina: Hurac&amp;aacute;n vs Boca Juniors</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828183000 -0500" stop="20180828203000 -0500" channel="99">
+        <title lang="en">Copa Libertadores: Santos vs Independiente</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826073000 -0500" stop="20180826093000 -0500" channel="100">
+        <title lang="en">2.BL: Union Berlin vs St. Pauli</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826073000 -0500" stop="20180826093000 -0500" channel="101">
+        <title lang="en">2.BL: Dynamo Dresden vs Heidenheim</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825160000 -0500" stop="20180825180000 -0500" channel="102">
+        <title lang="en">Liga NOS: Porto vs Vit&amp;oacute;ria Guimar&amp;atilde;es</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826110000 -0500" stop="20180826130000 -0500" channel="102">
+        <title lang="en">Liga NOS: Feirense vs Boavista</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825113000 -0500" stop="20180825133000 -0500" channel="102">
+        <title lang="en">Liga NOS: Portimonense vs Santa Clara</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826153000 -0500" stop="20180826173000 -0500" channel="102">
+        <title lang="en">Liga NOS: Sporting Braga vs Desportivo Aves</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827151500 -0500" stop="20180827171500 -0500" channel="102">
+        <title lang="en">Liga NOS: Moreirense vs Belenenses</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830100000 -0500" stop="20180830120000 -0500" channel="103">
+        <title lang="en">UELQ: Ufa vs Rangers</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830150000 -0500" stop="20180830170000 -0500" channel="103">
+        <title lang="en">UELQ: Celtic vs Suduva</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826100000 -0500" stop="20180826120000 -0500" channel="103">
+        <title lang="en">SPL: Celtic vs Hamilton Academical</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827143000 -0500" stop="20180827163000 -0500" channel="103">
+        <title lang="en">Serie A: Roma vs Atalanta</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826143000 -0500" stop="20180826163000 -0500" channel="104">
+        <title lang="en">Serie A: Inter Milan vs Torino</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826120000 -0500" stop="20180826140000 -0500" channel="104">
+        <title lang="en">Serie A: SPAL vs Parma</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825113000 -0500" stop="20180825131500 -0500" channel="104">
+        <title lang="en">GAA: Dublin v Galway</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827090000 -0500" stop="20180827120000 -0500" channel="105">
+        <title lang="en">Cycling: Vuelta a Espana</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828090000 -0500" stop="20180828120000 -0500" channel="105">
+        <title lang="en">Cycling: Vuelta a Espana</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829083000 -0500" stop="20180829113000 -0500" channel="105">
+        <title lang="en">Cycling: Vuelta a Espana (UK Coverage)</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830090000 -0500" stop="20180830120000 -0500" channel="105">
+        <title lang="en">Cycling: Vuelta a Espana</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825120000 -0500" stop="20180825144500 -0500" channel="105">
+        <title lang="en">Cycling: Vuelta a Espana</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826073000 -0500" stop="20180826090000 -0500" channel="105">
+        <title lang="en">Cycling: Tour de l'Avenir</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826090000 -0500" stop="20180826120000 -0500" channel="105">
+        <title lang="en">Cycling: Vuelta a Espana</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826060000 -0500" stop="20180826070000 -0500" channel="105">
+        <title lang="en">Porsche Supercup: Belgium</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826093000 -0500" stop="20180826113000 -0500" channel="106">
+        <title lang="en">Cycling: Deutschland Tour</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828130000 -0500" stop="20180828150000 -0500" channel="107">
+        <title lang="en">Swedish Speedway: Playoff 1</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826103000 -0500" stop="20180826123000 -0500" channel="107">
+        <title lang="en">Polish Speedway: Round 14</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826143000 -0500" stop="20180826170000 -0500" channel="107">
+        <title lang="en">NASCAR Camping World Truck Series: Chevrolet Silverado 250</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826140000 -0500" stop="20180826143000 -0500" channel="107">
+        <title lang="en">NASCAR Camping World Truck Series: Chevrolet Silverado 250, Pre Race</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826093000 -0500" stop="20180826113000 -0500" channel="108">
+        <title lang="en">1.BL: Mainz 05 vs Stuttgart</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826120000 -0500" stop="20180826140000 -0500" channel="108">
+        <title lang="en">1.BL: Borussia Dortmund vs RB Leipzig</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826150000 -0500" stop="20180826170000 -0500" channel="108">
+        <title lang="en">Ligue 1: Olympique Marseille vs Rennes</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827121500 -0500" stop="20180827141500 -0500" channel="108">
+        <title lang="en">VNL: Fylde vs Harrogate Town</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829053000 -0500" stop="20180829073000 -0500" channel="108">
+        <title lang="en">FFA Cup: Lions vs Adelaide United</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826071500 -0500" stop="20180826091500 -0500" channel="108">
+        <title lang="en">SPL: Motherwell vs Rangers</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827143000 -0500" stop="20180827163000 -0500" channel="108">
+        <title lang="en">SGB: Leicester vs King's Lynn</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825150000 -0500" stop="20180825170000 -0500" channel="109">
+        <title lang="en">Tennis: WTA New Haven, Final</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826040000 -0500" stop="20180826053000 -0500" channel="109">
+        <title lang="en">MotoGP: Great Britain, Warm-ups</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826061500 -0500" stop="20180826103000 -0500" channel="109">
+        <title lang="en">MotoGP: Great Britain</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828150000 -0500" stop="20180828170000 -0500" channel="109">
+        <title lang="en">UCLQ: Dynamo Kyiv vs Ajax</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826123000 -0500" stop="20180826134500 -0500" channel="109">
+        <title lang="en">F3 EC: Misano, Race 3</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829150000 -0500" stop="20180829170000 -0500" channel="109">
+        <title lang="en">UCLQ: PAOK vs Benfica</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825123000 -0500" stop="20180825143000 -0500" channel="109">
+        <title lang="en">1.BL: Borussia M'gladbach vs Bayer Leverkusen</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180830113000 -0500" stop="20180830134500 -0500" channel="109">
+        <title lang="en">UCL: Draw (UK Coverage)</title>
+        <date>20180830</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826110000 -0500" stop="20180826130000 -0500" channel="110">
+        <title lang="en">Ligue 1: Bordeaux vs Monaco</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829150000 -0500" stop="20180829170000 -0500" channel="110">
+        <title lang="en">UCLQ: PSV vs BATE Borisov</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826090000 -0500" stop="20180826110000 -0500" channel="110">
+        <title lang="en">Ligue 1: Lille vs Guingamp</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828150000 -0500" stop="20180828170000 -0500" channel="110">
+        <title lang="en">UCLQ: Dinamo Zagreb vs Young Boys</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180827143000 -0500" stop="20180827163000 -0500" channel="110">
+        <title lang="en">2.BL: Hamburger SV vs Arminia Bielefeld</title>
+        <date>20180827</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826023000 -0500" stop="20180826053000 -0500" channel="110">
+        <title lang="en">AFL: St. Kilda Saints vs. North Melbourne Kangaroos</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825124500 -0500" stop="20180825161500 -0500" channel="110">
+        <title lang="en">Speedway Grand Prix: Poland</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826010000 -0500" stop="20180826040000 -0500" channel="111">
+        <title lang="en">AFL: Melbourne vs. GWS Giants</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828150000 -0500" stop="20180828170000 -0500" channel="111">
+        <title lang="en">UCLQ: AEK Athens vs Videoton</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829150000 -0500" stop="20180829170000 -0500" channel="111">
+        <title lang="en">UCLQ: Salzburg vs Crvena Zvezda</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826084500 -0500" stop="20180826094500 -0500" channel="111">
+        <title lang="en">F3 EC: Misano, Race 2</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825193000 -0500" stop="20180825233000 -0500" channel="113">
+        <title lang="en">Caribbean Premier League: St Lucia Stars vs Jamaica Tallawahs</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828144500 -0500" stop="20180828164500 -0500" channel="113">
+        <title lang="en">League Cup: AFC Wimbledon vs West Ham United</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825151500 -0500" stop="20180825171500 -0500" channel="113">
+        <title lang="en">Rugby Championship: Argentina v South Africa</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825123000 -0500" stop="20180825143000 -0500" channel="113">
+        <title lang="en">EFL: Nottingham Forest vs Birmingham City</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829144500 -0500" stop="20180829164500 -0500" channel="113">
+        <title lang="en">League Cup: Nottingham Forest vs Newcastle United</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825193000 -0500" stop="20180825233000 -0500" channel="114">
+        <title lang="en">Caribbean Premier League: St Lucia Stars vs Jamaica Tallawahs</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825093000 -0500" stop="20180825131500 -0500" channel="114">
+        <title lang="en">T20 Blast: Worcestershire vs Gloucestershire</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825153000 -0500" stop="20180825193000 -0500" channel="114">
+        <title lang="en">Caribbean Premier League: Barbados Tridents vs St Kitts and Nevis Patriots</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826093000 -0500" stop="20180826131500 -0500" channel="114">
+        <title lang="en">T20 Blast: Somerset vs Nottinghamshire</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826173000 -0500" stop="20180826213000 -0500" channel="114">
+        <title lang="en">Caribbean Premier League: Barbados Tridents vs Trinbago Knight Riders</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825151500 -0500" stop="20180825171500 -0500" channel="115">
+        <title lang="en">Rugby Championship: Argentina v South Africa</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826110000 -0500" stop="20180826130000 -0500" channel="115">
+        <title lang="en">French Top 14: Montpellier v Castres</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825111500 -0500" stop="20180825131500 -0500" channel="115">
+        <title lang="en">Currie Cup: Western Province v Cheetahs</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826110000 -0500" stop="20180826113000 -0500" channel="118">
+        <title lang="en">F1: Belgian GP, Post Race</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826090000 -0500" stop="20180826110000 -0500" channel="118">
+        <title lang="en">F1: Belgian GP</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826083000 -0500" stop="20180826090000 -0500" channel="118">
+        <title lang="en">F1: Belgian GP, On the Grid</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826073000 -0500" stop="20180826083000 -0500" channel="118">
+        <title lang="en">F1: Belgian GP, Pit Lane Live</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826033000 -0500" stop="20180826041500 -0500" channel="118">
+        <title lang="en">GP3: Belgium, Race 2</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826044500 -0500" stop="20180826054500 -0500" channel="118">
+        <title lang="en">F2: Belgium, Race 2</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826060000 -0500" stop="20180826070000 -0500" channel="118">
+        <title lang="en">Porsche Supercup: Belgium</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828144500 -0500" stop="20180828164500 -0500" channel="120">
+        <title lang="en">League Cup: AFC Wimbledon vs West Ham United</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180829144500 -0500" stop="20180829164500 -0500" channel="120">
+        <title lang="en">League Cup: Nottingham Forest vs Newcastle United</title>
+        <date>20180829</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825123000 -0500" stop="20180825143000 -0500" channel="120">
+        <title lang="en">EFL: Nottingham Forest vs Birmingham City</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825160000 -0500" stop="20180825190000 -0500" channel="124">
+        <title lang="en">NFL Pre W3: Houston Texans at Los Angeles Rams</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825163000 -0500" stop="20180825193000 -0500" channel="125">
+        <title lang="en">NFL Pre W3: San Francisco 49ers at Indianapolis Colts</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825190000 -0500" stop="20180825220000 -0500" channel="126">
+        <title lang="en">NFL Pre W3: Atlanta Falcons at Jacksonville Jaguars</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825190000 -0500" stop="20180825220000 -0500" channel="127">
+        <title lang="en">NFL Pre W3: Baltimore Ravens at Miami Dolphins</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825120000 -0500" stop="20180825180000 -0500" channel="128">
+        <title lang="en">Boxing: KSI vs Logan Paul</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828143000 -0500" stop="20180828163000 -0500" channel="134">
+        <title lang="en">League Cup: Swansea City vs Crystal Palace</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826080000 -0500" stop="20180826091500 -0500" channel="135">
+        <title lang="en">Red Bull Air Race: Kazan, R14</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826100000 -0500" stop="20180826111500 -0500" channel="135">
+        <title lang="en">Red Bull Air Race: Kazan, R8</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825143000 -0500" stop="20180825163000 -0500" channel="136">
+        <title lang="en">Serie A: Napoli vs AC Milan</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825213000 -0500" stop="20180826020000 -0500" channel="140">
+        <title lang="en">Boxing: Raymundo Beltran vs. Jose Pedraza (UK Coverage)</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180825123000 -0500" stop="20180825143000 -0500" channel="141">
+        <title lang="en">EPL: Liverpool vs Brighton &amp; Hove Albion</title>
+        <date>20180825</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <quality q="1080i">1080i</quality>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826000000 -0500" stop="20180826020000 -0500" channel="142">
+        <title lang="en">NRL: Cronulla-Sutherland Sharks vs. Newcastle Knights</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826020000 -0500" stop="20180826040000 -0500" channel="142">
+        <title lang="en">NRL: St George Illawarra Dragons vs. Canterbury-Bankstown Bulldogs</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826010000 -0500" stop="20180826040000 -0500" channel="143">
+        <title lang="en">AFL: Melbourne vs. GWS Giants</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826040000 -0500" stop="20180826053000 -0500" channel="143">
+        <title lang="en">AFL: St. Kilda Saints vs. North Melbourne Kangaroos, JIP</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180828150000 -0500" stop="20180828170000 -0500" channel="148">
+        <title lang="en">UCLQ: AEK Athens vs Videoton</title>
+        <date>20180828</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826143000 -0500" stop="20180826163000 -0500" channel="148">
+        <title lang="en">Serie A: Cagliari vs Sassuolo</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+    <programme start="20180826143000 -0500" stop="20180826163000 -0500" channel="149">
+        <title lang="en">Serie A: Fiorentina vs Chievo</title>
+        <date>20180826</date>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown/>
+        <subtitles/>
+    </programme>
+</tv>
