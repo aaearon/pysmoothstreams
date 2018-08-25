@@ -6,9 +6,6 @@ class Feed(Enum):
 	SMOOTHSTREAMS = 'https://fast-guide.smoothstreams.tv/feed.json'
 	FOG = 'https://fast-guide.smoothstreams.tv/altepg/feedall1.json'
 
-	def __str__(self):
-		return self.value
-
 
 class Quality(Enum):
 	HD = 1

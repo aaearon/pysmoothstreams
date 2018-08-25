@@ -12,7 +12,8 @@ class Guide:
 		self.channels = []
 		self.expires = None
 
-		self.url = str(feed)
+		# self.url = str(feed)
+		self.url = feed.value if isinstance(feed, Feed) else feed
 		self._fetch_channels()
 
 	def _parse_expiration_string(self, expiration):
