@@ -64,14 +64,15 @@ class TestGuide(TestCase):
 		g = Guide()
 		self.assertEqual(150, len(g.channels))
 
-		with open('test_feed.xml') as f:
-			xml_feed = f.read()
+    # with open('test_feed.xml') as f:
+    # 	xml_feed = f.read()
+    #
+    # cm = MagicMock()
+    # cm.getcode.return_value = 200
+    # cm.read.return_value = xml_feed
+    # cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT'}
+    # cm.__enter__.return_value = cm
+    # mock_urlopen.return_value = cm
 
-		cm = MagicMock()
-		cm.getcode.return_value = 200
-		cm.read.return_value = xml_feed
-		cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT'}
-		cm.__enter__.return_value = cm
-		mock_urlopen.return_value = cm
-
-		g = Guide(feed='https://fast-guide.smoothstreams.tv/feed.xml')
+# g = Guide(feed='https://fast-guide.smoothstreams.tv/feed.xml')
+# self.assertEqual(150, len(g.channels))

@@ -1,14 +1,14 @@
 class InvalidService(Exception):
-	pass
+    pass
 
 
 class InvalidProtocol(Exception):
-	pass
+    pass
 
 
 class InvalidQuality(Exception):
-	pass
+    pass
 
 
 class InvalidServer(Exception):
-	pass
+    pass
