@@ -19,6 +19,7 @@ class Quality(Enum):
 class Protocol(Enum):
     HLS = 'https'
     RTMP = 'rtmp'
+    MPEG = 'https'
 
     def __str__(self):
         return self.value
@@ -60,8 +61,8 @@ class Server(Enum):
         return self.value
 
 
-Service = namedtuple('Service', 'site rtmp_port hls_port')
-LIVE247 = Service('view247', 3625, 443)
-STARSTREAMS = Service('viewss', 3665, 443)
-STREAMTVNOW = Service('viewstvn', 3615, 443)
-MMATV = Service('viewmmasr', 3635, 443)
+Service = namedtuple('Service', 'site rtmp_port hls_port mpeg_port')
+LIVE247 = Service('view247', 3625, 443, 443)
+STARSTREAMS = Service('viewss', 3665, 443, 443)
+STREAMTVNOW = Service('viewstvn', 3615, 443, 443)
+MMATV = Service('viewmmasr', 3635, 443, 443)

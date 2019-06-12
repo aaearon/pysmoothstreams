@@ -9,7 +9,7 @@ from pysmoothstreams.guide import Guide
 
 
 class TestGuide(TestCase):
-	def test__build_stream_url(self):
+    def test__build_stream_url_live247_rtmp(self):
 		a = AuthSign(service=LIVE247, auth=('fake', 'fake'))
 		# set hash and expiration manually
 		a.expiration_date = datetime.now() + timedelta(minutes=240)
@@ -21,14 +21,29 @@ class TestGuide(TestCase):
 		self.assertEqual(
 			'rtmp://dnae2.smoothstreams.tv:3625/view247/ch44q1.stream/playlist.m3u8?wmsAuthSign=abc1234', generated)
 
+    def test__build_stream_url_streamtvnow_hls(self):
 		a = AuthSign(service=STREAMTVNOW, auth=('fake', 'fake'))
 		# set hash and expiration manually
 		a.expiration_date = datetime.now() + timedelta(minutes=240)
 		a.hash = 'abc1234'
-		generated = g._build_stream_url(Server.EU_MIX, 3, a, Quality.LQ, Protocol.HLS)
+
+        g = Guide()
+        generated = g._build_stream_url(Server.NA_EAST_VA, 3, a, Quality.LQ, Protocol.HLS)
 
 		self.assertEqual(
-			'https://deu.smoothstreams.tv:443/viewstvn/ch03q3.stream/playlist.m3u8?wmsAuthSign=abc1234', generated)
+            'https://dnea2.smoothstreams.tv:443/viewstvn/ch03q3.stream/playlist.m3u8?wmsAuthSign=abc1234', generated)
+
+    def test__build_stream_url_streamtvnow_mpeg(self):
+        a = AuthSign(service=STREAMTVNOW, auth=('fake', 'fake'))
+        # set hash and expiration manually
+        a.expiration_date = datetime.now() + timedelta(minutes=240)
+        a.hash = 'abc1234'
+
+        g = Guide()
+        generated = g._build_stream_url(Server.EU_MIX, 3, a, Quality.LQ, Protocol.MPEG)
+
+        self.assertEqual('https://deu.smoothstreams.tv:443/viewstvn/ch03q3.stream/mpeg.2ts?wmsAuthSign=abc1234',
+                         generated)
 
 	def test_generate_streams(self):
 		a = AuthSign(service=STREAMTVNOW, auth=('fake', 'fake'))
