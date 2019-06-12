@@ -1,4 +1,3 @@
-from collections import namedtuple
 from enum import Enum
 
 
@@ -61,8 +60,8 @@ class Server(Enum):
         return self.value
 
 
-Service = namedtuple('Service', 'site rtmp_port hls_port mpeg_port')
-LIVE247 = Service('view247', 3625, 443, 443)
-STARSTREAMS = Service('viewss', 3665, 443, 443)
-STREAMTVNOW = Service('viewstvn', 3615, 443, 443)
-MMATV = Service('viewmmasr', 3635, 443, 443)
+class Service(Enum):
+    LIVE247 = 'view247'
+    STARSTREAMS = 'viewss'
+    STREAMTVNOW = 'viewstvn'
+    MMATV = 'viewmmasr'

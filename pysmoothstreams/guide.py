@@ -4,7 +4,7 @@ import urllib.request
 from datetime import datetime
 from json import JSONDecodeError
 
-from pysmoothstreams import Feed, Quality, Server, Protocol
+from pysmoothstreams import Feed, Quality, Server, Protocol, Service
 from pysmoothstreams.exceptions import InvalidQuality, InvalidServer, InvalidProtocol
 
 
@@ -39,7 +39,6 @@ class Guide:
                         logging.debug(f'Created channel: number {c["number"]}, name {c["name"]}, icon {c["icon"]}')
                         self.channels.append(c)
 
-
                 except JSONDecodeError as e:
                     logging.critical(f'Feed at {self.url} did not return valid JSON! Channel list is empty!')
 
@@ -51,18 +50,24 @@ class Guide:
     def _build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD, protocol=Protocol.HLS):
         # https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/playlist.m3u8?wmsAuthSign=abc1234
         # https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/mpeg.2ts?wmsAuthSign=abc1234
-        port = auth_sign.service.hls_port
+        port = '443'
         playlist = 'playlist.m3u8'
 
         if protocol == Protocol.RTMP:
-            port = auth_sign.service.rtmp_port
+            if auth_sign.service == Service.LIVE247:
+                port = '3625'
+            if auth_sign.service == Service.STARSTREAMS:
+                port = '3665'
+            if auth_sign.service == Service.STREAMTVNOW:
+                port = '3615'
+            if auth_sign.service == Service.MMATV:
+                port = '3635'
 
         if protocol == Protocol.MPEG:
-            port = auth_sign.service.mpeg_port
             playlist = 'mpeg.2ts'
 
         c = str(channel_number).zfill(2)
-        stream_url = f'{protocol}://{server}:{port}/{auth_sign.service.site}/ch{c}q{quality}.stream/{playlist}?wmsAuthSign={auth_sign.fetch_hash()}'
+        stream_url = f'{protocol}://{server}:{port}/{auth_sign.service.value}/ch{c}q{quality}.stream/{playlist}?wmsAuthSign={auth_sign.fetch_hash()}'
         return stream_url
 
     def generate_streams(self, server, quality, auth_sign, protocol=Protocol.HLS):
