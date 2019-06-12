@@ -66,7 +66,7 @@ class TestGuide(TestCase):
 
     @patch('urllib.request.urlopen')
     def test__fetch_channels(self, mock_urlopen):
-        with open('test_feed.json') as f:
+        with open('feed-new-latest.zip', 'rb') as f:
             json_feed = f.read()
 
         cm = MagicMock()
@@ -78,6 +78,11 @@ class TestGuide(TestCase):
 
         g = Guide()
         self.assertEqual(150, len(g.channels))
+
+        self.assertEqual("ESPNNews", g.channels[0]['name'])
+
+        self.assertEqual('https://fast-guide.smoothstreams.tv/assets/images/channels/150.png',
+                         g.channels[149]['icon'])
 
     # with open('test_feed.xml') as f:
     # 	xml_feed = f.read()
