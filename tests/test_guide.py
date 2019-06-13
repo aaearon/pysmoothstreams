@@ -17,7 +17,8 @@ class TestGuide(TestCase):
         cm = MagicMock()
         cm.getcode.return_value = 200
         cm.read.return_value = json_feed
-        cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT'}
+        cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT',
+                                'Content-Type': 'application/zip'}
         cm.__enter__.return_value = cm
         mock_urlopen.return_value = cm
 
@@ -81,3 +82,17 @@ class TestGuide(TestCase):
 
         self.assertEqual('https://fast-guide.smoothstreams.tv/assets/images/channels/150.png',
                          self.g.channels[149]['icon'])
+
+    def test__detect_xml_feed_type(self):
+        self.assertEqual('application/zip', self.g._get_content_type())
+
+    @patch('urllib.request.urlopen')
+    def test__detect_unknown_feed_type(self, mock_urlopen):
+        cm = MagicMock()
+        cm.getcode.return_value = 404
+        cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT',
+                                'Content-Type': 'application/html'}
+        cm.__enter__.return_value = cm
+        mock_urlopen.return_value = cm
+
+        self.assertRaises(Exception, Guide())
