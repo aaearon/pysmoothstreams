@@ -21,6 +21,14 @@ class Guide:
     def _parse_expiration_string(self, expiration):
         return datetime.strptime(expiration, '%a, %d %b %Y %H:%M:%S %Z')
 
+    def _get_content_type(self):
+        head_request = urllib.request.Request(self.url, method='HEAD')
+
+        with urllib.request.urlopen(head_request) as response:
+            content_type = response.info()['Content-Type']
+
+        return content_type
+
     def _fetch_zipped_feed(self):
         with urllib.request.urlopen(self.url) as response:
             self.expires = self._parse_expiration_string(response.info()['Expires'])
@@ -32,11 +40,24 @@ class Guide:
 
         return b
 
+    def _fetch_json_feed(self):
+        with urllib.request.urlopen(self.url) as response:
+            self.expires = self._parse_expiration_string(response.info()['Expires'])
+
+            return response.read()
+
     def _fetch_channels(self, force=False):
 
         if self.expires is None or datetime.now() > self.expires or force:
 
-            feed = self._fetch_zipped_feed()
+            content_type = self._get_content_type()
+
+            if content_type == 'application/zip':
+                feed = self._fetch_zipped_feed()
+            elif content_type == 'application/json':
+                feed = self._fetch_json_feed()
+            else:
+                raise Exception(f'Got an unexpected Content-Type: {content_type} from {self.url}')
 
             try:
                 as_json = json.loads(feed)["data"]
