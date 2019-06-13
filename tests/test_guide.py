@@ -9,63 +9,8 @@ from pysmoothstreams.guide import Guide
 
 
 class TestGuide(TestCase):
-    def test__build_stream_url_live247_rtmp(self):
-        a = AuthSign(service=Service.LIVE247, auth=('fake', 'fake'))
-        # set hash and expiration manually
-        a.expiration_date = datetime.now() + timedelta(minutes=240)
-        a.hash = 'abc1234'
-
-        g = Guide()
-        generated = g._build_stream_url(Server.NA_EAST_VA, 44, a, Quality.HD, Protocol.RTMP)
-
-        self.assertEqual(
-            'rtmp://dnae2.smoothstreams.tv:3625/view247/ch44q1.stream/playlist.m3u8?wmsAuthSign=abc1234', generated)
-
-    def test__build_stream_url_streamtvnow_hls(self):
-        a = AuthSign(service=Service.STREAMTVNOW, auth=('fake', 'fake'))
-        # set hash and expiration manually
-        a.expiration_date = datetime.now() + timedelta(minutes=240)
-        a.hash = 'abc1234'
-
-        g = Guide()
-        generated = g._build_stream_url(Server.ASIA_SING, 10, a, Quality.LQ, Protocol.HLS)
-
-        self.assertEqual('https://dap.smoothstreams.tv:443/viewstvn/ch10q3.stream/playlist.m3u8?wmsAuthSign=abc1234',
-                         generated)
-
-    def test__build_stream_url_streamtvnow_mpeg(self):
-        a = AuthSign(service=Service.STREAMTVNOW, auth=('fake', 'fake'))
-        # set hash and expiration manually
-        a.expiration_date = datetime.now() + timedelta(minutes=240)
-        a.hash = 'abc1234'
-
-        g = Guide()
-        generated = g._build_stream_url(Server.EU_MIX, 3, a, Quality.LQ, Protocol.MPEG)
-
-        self.assertEqual('https://deu.smoothstreams.tv:443/viewstvn/ch03q3.stream/mpeg.2ts?wmsAuthSign=abc1234',
-                         generated)
-
-    def test_generate_streams(self):
-        a = AuthSign(service=Service.STREAMTVNOW, auth=('fake', 'fake'))
-        g = Guide()
-
-        with self.assertRaises(InvalidServer) as context:
-            g.generate_streams('FakeServer', Quality.HD, a, protocol=Protocol.HLS)
-
-        self.assertTrue('FakeServer is not a valid server!' in str(context.exception))
-
-        with self.assertRaises(InvalidQuality) as context:
-            g.generate_streams(Server.EU_MIX, 29, a, protocol=Protocol.HLS)
-
-        self.assertTrue('29 is not a valid quality!' in str(context.exception))
-
-        with self.assertRaises(InvalidProtocol) as context:
-            g.generate_streams(Server.EU_MIX, Quality.LQ, a, protocol='abc')
-
-        self.assertTrue('abc is not a valid protocol!' in str(context.exception))
-
     @patch('urllib.request.urlopen')
-    def test__fetch_channels(self, mock_urlopen):
+    def setUp(self, mock_urlopen):
         with open('feed-new-latest.zip', 'rb') as f:
             json_feed = f.read()
 
@@ -76,23 +21,63 @@ class TestGuide(TestCase):
         cm.__enter__.return_value = cm
         mock_urlopen.return_value = cm
 
-        g = Guide()
-        self.assertEqual(150, len(g.channels))
+        self.g = Guide()
 
-        self.assertEqual("ESPNNews", g.channels[0]['name'])
+    def test__build_stream_url_live247_rtmp(self):
+        a = AuthSign(service=Service.LIVE247, auth=('fake', 'fake'))
+        # set hash and expiration manually
+        a.expiration_date = datetime.now() + timedelta(minutes=240)
+        a.hash = 'abc1234'
+
+        generated = self.g._build_stream_url(Server.NA_EAST_VA, 44, a, Quality.HD, Protocol.RTMP)
+
+        self.assertEqual(
+            'rtmp://dnae2.smoothstreams.tv:3625/view247/ch44q1.stream/playlist.m3u8?wmsAuthSign=abc1234', generated)
+
+    def test__build_stream_url_streamtvnow_hls(self):
+        a = AuthSign(service=Service.STREAMTVNOW, auth=('fake', 'fake'))
+        # set hash and expiration manually
+        a.expiration_date = datetime.now() + timedelta(minutes=240)
+        a.hash = 'abc1234'
+
+        generated = self.g._build_stream_url(Server.ASIA_SING, 10, a, Quality.LQ, Protocol.HLS)
+
+        self.assertEqual('https://dap.smoothstreams.tv:443/viewstvn/ch10q3.stream/playlist.m3u8?wmsAuthSign=abc1234',
+                         generated)
+
+    def test__build_stream_url_streamtvnow_mpeg(self):
+        a = AuthSign(service=Service.STREAMTVNOW, auth=('fake', 'fake'))
+        # set hash and expiration manually
+        a.expiration_date = datetime.now() + timedelta(minutes=240)
+        a.hash = 'abc1234'
+
+        generated = self.g._build_stream_url(Server.EU_MIX, 3, a, Quality.LQ, Protocol.MPEG)
+
+        self.assertEqual('https://deu.smoothstreams.tv:443/viewstvn/ch03q3.stream/mpeg.2ts?wmsAuthSign=abc1234',
+                         generated)
+
+    def test_generate_streams(self):
+        a = AuthSign(service=Service.STREAMTVNOW, auth=('fake', 'fake'))
+
+        with self.assertRaises(InvalidServer) as context:
+            self.g.generate_streams('FakeServer', Quality.HD, a, protocol=Protocol.HLS)
+
+        self.assertTrue('FakeServer is not a valid server!' in str(context.exception))
+
+        with self.assertRaises(InvalidQuality) as context:
+            self.g.generate_streams(Server.EU_MIX, 29, a, protocol=Protocol.HLS)
+
+        self.assertTrue('29 is not a valid quality!' in str(context.exception))
+
+        with self.assertRaises(InvalidProtocol) as context:
+            self.g.generate_streams(Server.EU_MIX, Quality.LQ, a, protocol='abc')
+
+        self.assertTrue('abc is not a valid protocol!' in str(context.exception))
+
+    def test__fetch_channels(self):
+        self.assertEqual(150, len(self.g.channels))
+
+        self.assertEqual("ESPNNews", self.g.channels[0]['name'])
 
         self.assertEqual('https://fast-guide.smoothstreams.tv/assets/images/channels/150.png',
-                         g.channels[149]['icon'])
-
-    # with open('test_feed.xml') as f:
-    # 	xml_feed = f.read()
-    #
-    # cm = MagicMock()
-    # cm.getcode.return_value = 200
-    # cm.read.return_value = xml_feed
-    # cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT'}
-    # cm.__enter__.return_value = cm
-    # mock_urlopen.return_value = cm
-
-# g = Guide(feed='https://fast-guide.smoothstreams.tv/feed.xml')
-# self.assertEqual(150, len(g.channels))
+                         self.g.channels[149]['icon'])
