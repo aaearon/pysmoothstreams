@@ -16,9 +16,9 @@ class Quality(Enum):
 
 
 class Protocol(Enum):
-    HLS = 'https'
-    RTMP = 'rtmp'
-    MPEG = 'https'
+    HLS = 1
+    RTMP = 2
+    MPEG = 3
 
     def __str__(self):
         return self.value

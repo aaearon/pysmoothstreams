@@ -56,10 +56,12 @@ class Guide:
     def _build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD, protocol=Protocol.HLS):
         # https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/playlist.m3u8?wmsAuthSign=abc1234
         # https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/mpeg.2ts?wmsAuthSign=abc1234
+        scheme = 'https'
         port = '443'
         playlist = 'playlist.m3u8'
 
         if protocol == Protocol.RTMP:
+            scheme = 'rtmp'
             if auth_sign.service == Service.LIVE247:
                 port = '3625'
             if auth_sign.service == Service.STARSTREAMS:
@@ -73,7 +75,10 @@ class Guide:
             playlist = 'mpeg.2ts'
 
         c = str(channel_number).zfill(2)
-        stream_url = f'{protocol}://{server}:{port}/{auth_sign.service.value}/ch{c}q{quality}.stream/{playlist}?wmsAuthSign={auth_sign.fetch_hash()}'
+        logging.debug(
+            f'Creating stream url with scheme "{scheme}", server "{server}", port "{port}", playlist "{playlist}"')
+        stream_url = f'{scheme}://{server}:{port}/{auth_sign.service.value}/ch{c}q{quality}.stream/{playlist}?wmsAuthSign={auth_sign.fetch_hash()}'
+        logging.debug(f'Stream url: {stream_url}')
         return stream_url
 
     def generate_streams(self, server, quality, auth_sign, protocol=Protocol.HLS):

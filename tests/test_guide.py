@@ -30,8 +30,8 @@ class TestGuide(TestCase):
         g = Guide()
         generated = g._build_stream_url(Server.ASIA_SING, 10, a, Quality.LQ, Protocol.HLS)
 
-        self.assertEqual(generated,
-                         'https://dap.smoothstreams.tv:443/viewstvn/ch10q3.stream/playlist.m3u8?wmsAuthSign=abc1234')
+        self.assertEqual('https://dap.smoothstreams.tv:443/viewstvn/ch10q3.stream/playlist.m3u8?wmsAuthSign=abc1234',
+                         generated)
 
     def test__build_stream_url_streamtvnow_mpeg(self):
         a = AuthSign(service=Service.STREAMTVNOW, auth=('fake', 'fake'))
