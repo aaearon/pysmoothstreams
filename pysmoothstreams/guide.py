@@ -2,7 +2,9 @@ import json
 import logging
 import urllib.request
 from datetime import datetime
+from io import BytesIO
 from json import JSONDecodeError
+from zipfile import ZipFile
 
 from pysmoothstreams import Feed, Quality, Server, Protocol, Service
 from pysmoothstreams.exceptions import InvalidQuality, InvalidServer, InvalidProtocol
@@ -27,20 +29,24 @@ class Guide:
                 self.expires = self._parse_expiration_string(response.info()['Expires'])
                 logging.debug(f'Guide info set to expire in {self.expires}')
 
-                try:
-                    as_json = json.loads(response.read())
-                    logging.debug(f'Retrieved {len(as_json)} channels from feed.')
-                    self.channels = []
+                zipped_feed = ZipFile(BytesIO(response.read()))
+                for file in zipped_feed.namelist():
+                    feed_json = zipped_feed.open(file).read()
 
-                    for key, value in as_json.items():
-                        c = {'number': value['channel_id'],
-                             'name': value['name'],
-                             'icon': value['img']}
-                        logging.debug(f'Created channel: number {c["number"]}, name {c["name"]}, icon {c["icon"]}')
-                        self.channels.append(c)
+                    try:
+                        as_json = json.loads(feed_json)["data"]
+                        logging.debug(f'Retrieved {len(as_json)} channels from feed.')
+                        self.channels = []
 
-                except JSONDecodeError as e:
-                    logging.critical(f'Feed at {self.url} did not return valid JSON! Channel list is empty!')
+                        for key, value in as_json.items():
+                            c = {'number': value['number'],
+                                 'name': value['name'],
+                                 'icon': value['img']}
+                            logging.debug(f'Created channel: number {c["number"]}, name {c["name"]}, icon {c["icon"]}')
+                            self.channels.append(c)
+
+                    except JSONDecodeError as e:
+                        logging.critical(f'Feed at {self.url} did not return valid JSON! Channel list is empty!')
 
             logging.debug(f'Fetched {len(self.channels)} channels.')
 
