@@ -5,7 +5,7 @@ with open("README.rst", "r") as fh:
 
 setuptools.setup(
     name='pysmoothstreams',
-    version='0.5',
+    version='0.6',
     url='https://github.com/aaearon/pysmoothstreams',
     license='MIT',
     author='Tim Schindler',
