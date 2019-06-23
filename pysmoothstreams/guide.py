@@ -14,8 +14,10 @@ class Guide:
     def __init__(self, feed=Feed.SMOOTHSTREAMS):
         self.channels = []
         self.expires = None
+        self.epg_data = None
 
         self.url = feed.value if isinstance(feed, Feed) else feed
+        self._fetch_epg_data()
         self._fetch_channels()
 
     def _parse_expiration_string(self, expiration):
@@ -46,38 +48,44 @@ class Guide:
 
             return response.read()
 
-    def _fetch_channels(self, force=False):
-
+    def _fetch_epg_data(self, force=False):
         if self.expires is None or datetime.now() > self.expires or force:
 
             content_type = self._get_content_type()
 
             if content_type == 'application/zip':
-                feed = self._fetch_zipped_feed()
+                self.epg_data = self._fetch_zipped_feed()
             elif content_type == 'application/json':
-                feed = self._fetch_json_feed()
+                self.epg_data = self._fetch_json_feed()
             else:
                 raise Exception(f'Got an unexpected Content-Type: {content_type} from {self.url}')
 
-            try:
-                as_json = json.loads(feed)["data"]
-                logging.debug(f'Retrieved {len(as_json)} channels from feed.')
-                self.channels = []
-
-                for key, value in as_json.items():
-                    c = {'number': value['number'],
-                         'name': value['name'],
-                         'icon': value['img']}
-                    logging.debug(f'Created channel: number {c["number"]}, name {c["name"]}, icon {c["icon"]}')
-                    self.channels.append(c)
-
-            except JSONDecodeError as e:
-                logging.critical(f'Feed at {self.url} did not return valid JSON! Channel list is empty!')
-
-                logging.debug(f'Fetched {len(self.channels)} channels.')
-
         else:
-            logging.debug('Channels are not stale or fetched was not forced.')
+            logging.debug('EPG data is not stale or fetched was not forced.')
+
+    def _fetch_channels(self, force=False):
+
+        if force:
+            self._fetch_epg_data(force=True)
+
+        try:
+            as_json = json.loads(self.epg_data)["data"]
+            logging.debug(f'Retrieved {len(as_json)} channels from feed.')
+            self.channels = []
+
+            for key, value in as_json.items():
+                c = {'number': value['number'],
+                     'name': value['name'],
+                     'icon': value['img']}
+                logging.debug(f'Created channel: number {c["number"]}, name {c["name"]}, icon {c["icon"]}')
+                self.channels.append(c)
+
+        except JSONDecodeError as e:
+            logging.critical(f'Feed at {self.url} did not return valid JSON! Channel list is empty!')
+
+            logging.debug(f'Fetched {len(self.channels)} channels.')
+
+
 
     def _build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD, protocol=Protocol.HLS):
         # https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/playlist.m3u8?wmsAuthSign=abc1234

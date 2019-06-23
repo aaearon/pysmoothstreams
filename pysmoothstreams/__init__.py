@@ -54,7 +54,11 @@ class Server(Enum):
     NA_WEST_CHI_1 = 'dnaw3.smoothstreams.tv'
     NA_WEST_CHI_2 = 'dnaw4.smoothstreams.tv'
 
-    ASIA_SING = 'dap.smoothstreams.tv'
+    ASIA_SG_01 = 'dAP1.smoothstreams.tv'
+    ASIA_SG_02 = 'dAP2.smoothstreams.tv'
+    ASIA_SG_03 = 'dAP3.smoothstreams.tv'
+    ASIA_MIX = 'dAP.smoothstreams.tv'
+
 
     def __str__(self):
         return self.value
