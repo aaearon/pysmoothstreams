@@ -41,9 +41,9 @@ class TestGuide(TestCase):
         a.expiration_date = datetime.now() + timedelta(minutes=240)
         a.hash = 'abc1234'
 
-        generated = self.g._build_stream_url(Server.ASIA_SING, 10, a, Quality.LQ, Protocol.HLS)
+        generated = self.g._build_stream_url(Server.ASIA_MIX, 10, a, Quality.LQ, Protocol.HLS)
 
-        self.assertEqual('https://dap.smoothstreams.tv:443/viewstvn/ch10q3.stream/playlist.m3u8?wmsAuthSign=abc1234',
+        self.assertEqual('https://dAP.smoothstreams.tv:443/viewstvn/ch10q3.stream/playlist.m3u8?wmsAuthSign=abc1234',
                          generated)
 
     def test__build_stream_url_streamtvnow_mpeg(self):
