@@ -70,11 +70,13 @@ class Guide:
         self.channels = []
 
         tree = ElementTree.fromstring(self.epg_data)
-        for index, element in enumerate(tree.iter()):
+        channel = 1
+        for element in tree.iter():
             if element.tag == 'channel':
-                c = {'number': index,
+                c = {'number': channel,
                      'name': element.find('display-name').text,
                      'icon': element.find('icon').attrib['src']}
+                channel += 1
                 self.channels.append(c)
 
             logging.debug(f'Fetched {len(self.channels)} channels.')
