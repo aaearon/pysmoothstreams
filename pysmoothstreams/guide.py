@@ -7,7 +7,7 @@ from json import JSONDecodeError
 from zipfile import ZipFile
 
 from pysmoothstreams import Feed, Quality, Server, Protocol, Service
-from pysmoothstreams.exceptions import InvalidQuality, InvalidServer, InvalidProtocol
+from pysmoothstreams.exceptions import InvalidQuality, InvalidServer, InvalidProtocol, InvalidContentType
 
 
 class Guide:
@@ -58,7 +58,7 @@ class Guide:
             elif content_type == 'application/json':
                 self.epg_data = self._fetch_json_feed()
             else:
-                raise Exception(f'Got an unexpected Content-Type: {content_type} from {self.url}')
+                raise InvalidContentType(f'Got an unexpected Content-Type: {content_type} from {self.url}')
 
         else:
             logging.debug('EPG data is not stale or fetched was not forced.')
@@ -84,8 +84,6 @@ class Guide:
             logging.critical(f'Feed at {self.url} did not return valid JSON! Channel list is empty!')
 
             logging.debug(f'Fetched {len(self.channels)} channels.')
-
-
 
     def _build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD, protocol=Protocol.HLS):
         # https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/playlist.m3u8?wmsAuthSign=abc1234
