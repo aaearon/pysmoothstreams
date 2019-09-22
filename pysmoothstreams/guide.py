@@ -54,7 +54,7 @@ class Guide:
 
             if content_type == 'application/zip':
                 self.epg_data = self._fetch_zipped_feed()
-            elif content_type == 'application/xml':
+            elif content_type == 'application/xml' or content_type == 'text/xml':
                 self.epg_data = self._fetch_feed()
             else:
                 raise InvalidContentType(f'Got an unexpected Content-Type: {content_type} from {self.url}')

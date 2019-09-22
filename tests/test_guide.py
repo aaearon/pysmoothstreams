@@ -18,7 +18,7 @@ class TestGuide(TestCase):
         cm.getcode.return_value = 200
         cm.read.return_value = json_feed
         cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT',
-                                'Content-Type': 'application/xml'}
+                                'Content-Type': 'text/xml'}
         cm.__enter__.return_value = cm
         mock_urlopen.return_value = cm
 
