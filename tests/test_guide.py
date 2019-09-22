@@ -4,21 +4,21 @@ from unittest.mock import patch, MagicMock
 
 from pysmoothstreams import Server, Quality, Protocol, Service
 from pysmoothstreams.auth import AuthSign
-from pysmoothstreams.exceptions import InvalidServer, InvalidQuality, InvalidProtocol
+from pysmoothstreams.exceptions import InvalidServer, InvalidQuality, InvalidProtocol, InvalidContentType
 from pysmoothstreams.guide import Guide
 
 
 class TestGuide(TestCase):
     @patch('urllib.request.urlopen')
     def setUp(self, mock_urlopen):
-        with open('feed-new-latest.zip', 'rb') as f:
+        with open('test_altepg1.xml', 'r') as f:
             json_feed = f.read()
 
         cm = MagicMock()
         cm.getcode.return_value = 200
         cm.read.return_value = json_feed
         cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT',
-                                'Content-Type': 'application/zip'}
+                                'Content-Type': 'application/xml'}
         cm.__enter__.return_value = cm
         mock_urlopen.return_value = cm
 
@@ -80,11 +80,13 @@ class TestGuide(TestCase):
 
         self.assertEqual("ESPNNews", self.g.channels[0]['name'])
 
-        self.assertEqual('https://fast-guide.smoothstreams.tv/assets/images/channels/150.png',
-                         self.g.channels[149]['icon'])
+        self.assertEqual(1, self.g.channels[0]['number'])
+
+        self.assertTrue(self.g.channels[149]['icon'].endswith('smoothstreams.tv/assets/images/channels/150.png'))
+
 
     def test__detect_xml_feed_type(self):
-        self.assertEqual('application/zip', self.g._get_content_type())
+        self.assertEqual('text/xml', self.g._get_content_type())
 
     @patch('urllib.request.urlopen')
     def test__detect_unknown_feed_type(self, mock_urlopen):
@@ -95,4 +97,4 @@ class TestGuide(TestCase):
         cm.__enter__.return_value = cm
         mock_urlopen.return_value = cm
 
-        self.assertRaises(Exception, Guide())
+        with self.assertRaises(InvalidContentType): Guide()
