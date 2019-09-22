@@ -12,3 +12,7 @@ class InvalidQuality(Exception):
 
 class InvalidServer(Exception):
     pass
+
+
+class InvalidContentType(Exception):
+    pass

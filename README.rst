@@ -6,7 +6,7 @@ Usage
 -----
 Create a list of channels with metadata -- including stream URLs -- for a defined service, for a particular server, with a specific quality.
 
-    >>> g = Guide(Feed.FOG)
+    >>> g = Guide(Feed.ALTEPG)
     >>> auth = AuthSign(service=LIVE247, auth=('username', 'password'))
     'c2VydmVyX3R...'
     >>> s = g.generate_streams(Server.NA_EAST_VA, Quality.HD, auth, PROTOCOL.RTMP)

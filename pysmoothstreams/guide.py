@@ -1,17 +1,16 @@
-import json
 import logging
 import urllib.request
 from datetime import datetime
 from io import BytesIO
-from json import JSONDecodeError
+from xml.etree import ElementTree
 from zipfile import ZipFile
 
 from pysmoothstreams import Feed, Quality, Server, Protocol, Service
-from pysmoothstreams.exceptions import InvalidQuality, InvalidServer, InvalidProtocol
+from pysmoothstreams.exceptions import InvalidQuality, InvalidServer, InvalidProtocol, InvalidContentType
 
 
 class Guide:
-    def __init__(self, feed=Feed.SMOOTHSTREAMS):
+    def __init__(self, feed=Feed.ALTEPG):
         self.channels = []
         self.expires = None
         self.epg_data = None
@@ -42,7 +41,7 @@ class Guide:
 
         return b
 
-    def _fetch_json_feed(self):
+    def _fetch_feed(self):
         with urllib.request.urlopen(self.url) as response:
             self.expires = self._parse_expiration_string(response.info()['Expires'])
 
@@ -55,10 +54,10 @@ class Guide:
 
             if content_type == 'application/zip':
                 self.epg_data = self._fetch_zipped_feed()
-            elif content_type == 'application/json':
-                self.epg_data = self._fetch_json_feed()
+            elif content_type == 'application/xml':
+                self.epg_data = self._fetch_feed()
             else:
-                raise Exception(f'Got an unexpected Content-Type: {content_type} from {self.url}')
+                raise InvalidContentType(f'Got an unexpected Content-Type: {content_type} from {self.url}')
 
         else:
             logging.debug('EPG data is not stale or fetched was not forced.')
@@ -68,24 +67,17 @@ class Guide:
         if force:
             self._fetch_epg_data(force=True)
 
-        try:
-            as_json = json.loads(self.epg_data)["data"]
-            logging.debug(f'Retrieved {len(as_json)} channels from feed.')
-            self.channels = []
+        self.channels = []
 
-            for key, value in as_json.items():
-                c = {'number': value['number'],
-                     'name': value['name'],
-                     'icon': value['img']}
-                logging.debug(f'Created channel: number {c["number"]}, name {c["name"]}, icon {c["icon"]}')
+        tree = ElementTree.fromstring(self.epg_data)
+        for index, element in enumerate(tree.iter()):
+            if element.tag == 'channel':
+                c = {'number': index,
+                     'name': element.find('display-name').text,
+                     'icon': element.find('icon').attrib['src']}
                 self.channels.append(c)
 
-        except JSONDecodeError as e:
-            logging.critical(f'Feed at {self.url} did not return valid JSON! Channel list is empty!')
-
             logging.debug(f'Fetched {len(self.channels)} channels.')
-
-
 
     def _build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD, protocol=Protocol.HLS):
         # https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/playlist.m3u8?wmsAuthSign=abc1234

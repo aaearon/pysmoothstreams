@@ -2,8 +2,8 @@ from enum import Enum
 
 
 class Feed(Enum):
-    SMOOTHSTREAMS = 'https://fast-guide.smoothstreams.tv/feed-new-latest.zip'
-    # FOG = 'https://fast-guide.smoothstreams.tv/altepg/feedall1.json'
+    SMOOTHSTREAMS = 'https://fast-guide.smoothstreams.tv/feed.xml'
+    ALTEPG = 'https://guide.showyou.tv/altepg/xmltv1.xml'
 
 
 class Quality(Enum):
@@ -58,7 +58,6 @@ class Server(Enum):
     ASIA_SG_02 = 'dAP2.smoothstreams.tv'
     ASIA_SG_03 = 'dAP3.smoothstreams.tv'
     ASIA_MIX = 'dAP.smoothstreams.tv'
-
 
     def __str__(self):
         return self.value
