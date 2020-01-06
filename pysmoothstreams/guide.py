@@ -1,3 +1,4 @@
+import gzip
 import logging
 import urllib.request
 from datetime import datetime
@@ -41,6 +42,18 @@ class Guide:
 
         return b
 
+    def _fetch_gzipped_feed(self):
+        with urllib.request.urlopen(self.url) as response:
+            self.expires = self._parse_expiration_string(response.info()['Expires'])
+            logging.debug(f'Guide info set to expire in {self.expires}')
+
+            data = response.read()
+
+            with gzip.open(BytesIO(data), mode='r') as f:
+                feed_data = f.read()
+
+        return feed_data
+
     def _fetch_feed(self):
         with urllib.request.urlopen(self.url) as response:
             self.expires = self._parse_expiration_string(response.info()['Expires'])
@@ -52,7 +65,10 @@ class Guide:
 
             content_type = self._get_content_type()
 
-            if content_type == 'application/zip':
+            if content_type == 'application/octet-stream':
+                # TODO: Make this better as application/octet-stream as a content-type does not guarantee a gzip file
+                self.epg_data = self._fetch_gzipped_feed()
+            elif content_type == 'application/zip':
                 self.epg_data = self._fetch_zipped_feed()
             elif content_type == 'application/xml' or content_type == 'text/xml':
                 self.epg_data = self._fetch_feed()
