@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 from unittest import TestCase
 from unittest.mock import patch, MagicMock
 
-from pysmoothstreams import Server, Quality, Protocol, Service
+from pysmoothstreams import Server, Quality, Protocol, Service, Feed
 from pysmoothstreams.auth import AuthSign
 from pysmoothstreams.exceptions import InvalidServer, InvalidQuality, InvalidProtocol, InvalidContentType
 from pysmoothstreams.guide import Guide
@@ -22,7 +22,7 @@ class TestGuide(TestCase):
         cm.__enter__.return_value = cm
         mock_urlopen.return_value = cm
 
-        self.g = Guide()
+        self.g = Guide(Feed.SMOOTHSTREAMS)
 
     def test__build_stream_url_live247_rtmp(self):
         a = AuthSign(service=Service.LIVE247, auth=('fake', 'fake'))
@@ -84,7 +84,6 @@ class TestGuide(TestCase):
 
         self.assertTrue(self.g.channels[149]['icon'].endswith('smoothstreams.tv/assets/images/channels/150.png'))
 
-
     def test__detect_xml_feed_type(self):
         self.assertEqual('text/xml', self.g._get_content_type())
 
@@ -98,3 +97,20 @@ class TestGuide(TestCase):
         mock_urlopen.return_value = cm
 
         with self.assertRaises(InvalidContentType): Guide()
+
+    @patch('urllib.request.urlopen')
+    def test__gzipped_feed(self, mock_urlopen):
+        with open('test_xmltv1.xml.gz', 'rb') as f:
+            feed = f.read()
+
+        cm = MagicMock()
+        cm.getcode.return_value = 200
+        cm.read.return_value = feed
+        cm.info.return_value = {'Expires': 'Tue, 07 Jan 2020 00:53:17 GMT',
+                                'Content-Type': 'application/octet-stream'}
+        cm.__enter__.return_value = cm
+        mock_urlopen.return_value = cm
+
+        self.g = Guide(Feed.ALTEPG)
+
+        self.assertEqual(150, len(self.g.channels))

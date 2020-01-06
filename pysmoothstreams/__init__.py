@@ -3,7 +3,7 @@ from enum import Enum
 
 class Feed(Enum):
     SMOOTHSTREAMS = 'https://fast-guide.smoothstreams.tv/feed.xml'
-    ALTEPG = 'https://guide.showyou.tv/altepg/xmltv1.xml'
+    ALTEPG = 'https://fast-guide.smoothstreams.tv/altepg/xmltv1.xml.gz'
 
 
 class Quality(Enum):
