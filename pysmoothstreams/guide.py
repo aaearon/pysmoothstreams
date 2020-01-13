@@ -28,13 +28,14 @@ class Guide:
 
         with urllib.request.urlopen(head_request) as response:
             content_type = response.info()['Content-Type']
+            logging.debug(f'Content-Type header is {content_type}.')
 
         return content_type
 
     def _fetch_zipped_feed(self):
         with urllib.request.urlopen(self.url) as response:
             self.expires = self._parse_expiration_string(response.info()['Expires'])
-            logging.debug(f'Guide info set to expire in {self.expires}')
+            logging.debug(f'Guide info set to expire on {self.expires}.')
 
             zipped_feed = ZipFile(BytesIO(response.read()))
             for file in zipped_feed.namelist():
@@ -45,7 +46,7 @@ class Guide:
     def _fetch_gzipped_feed(self):
         with urllib.request.urlopen(self.url) as response:
             self.expires = self._parse_expiration_string(response.info()['Expires'])
-            logging.debug(f'Guide info set to expire in {self.expires}')
+            logging.debug(f'Guide info set to expire on {self.expires}.')
 
             data = response.read()
 
@@ -62,6 +63,7 @@ class Guide:
 
     def _fetch_epg_data(self, force=False):
         if self.expires is None or datetime.now() > self.expires or force:
+            logging.debug(f'No EPG data or fetch was forced.')
 
             content_type = self._get_content_type()
 
@@ -73,10 +75,10 @@ class Guide:
             elif content_type == 'application/xml' or content_type == 'text/xml':
                 self.epg_data = self._fetch_feed()
             else:
-                raise InvalidContentType(f'Got an unexpected Content-Type: {content_type} from {self.url}')
+                raise InvalidContentType(f'Got an unexpected Content-Type: {content_type} from {self.url}.')
 
         else:
-            logging.debug('EPG data is not stale or fetched was not forced.')
+            logging.debug(f'EPG data is not stale ({self.expires}).')
 
     def _fetch_channels(self, force=False):
 
@@ -122,7 +124,7 @@ class Guide:
         logging.debug(
             f'Creating stream url with scheme "{scheme}", server "{server}", port "{port}", playlist "{playlist}"')
         stream_url = f'{scheme}://{server}:{port}/{auth_sign.service.value}/ch{c}q{quality}.stream/{playlist}?wmsAuthSign={auth_sign.fetch_hash()}'
-        logging.debug(f'Stream url: {stream_url}')
+        logging.debug(f'Stream url: {stream_url}.')
         return stream_url
 
     def generate_streams(self, server, quality, auth_sign, protocol=Protocol.HLS):
