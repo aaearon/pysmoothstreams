@@ -11,7 +11,7 @@ from pysmoothstreams.guide import Guide
 class TestGuide(TestCase):
     @patch('urllib.request.urlopen')
     def setUp(self, mock_urlopen):
-        with open('test_altepg1.xml', 'r') as f:
+        with open('./tests/test_altepg1.xml', 'r') as f:
             json_feed = f.read()
 
         cm = MagicMock()
@@ -100,7 +100,7 @@ class TestGuide(TestCase):
 
     @patch('urllib.request.urlopen')
     def test__gzipped_feed(self, mock_urlopen):
-        with open('test_xmltv1.xml.gz', 'rb') as f:
+        with open('tests/test_xmltv1.xml.gz', 'rb') as f:
             feed = f.read()
 
         cm = MagicMock()
