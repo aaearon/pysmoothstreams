@@ -95,7 +95,7 @@ class Guide:
                 channel += 1
                 self.channels.append(c)
 
-            logging.debug(f'Fetched {len(self.channels)} channels.')
+        logging.debug(f'Fetched {len(self.channels)} channels.')
 
     def _build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD, protocol=Protocol.HLS):
         # https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/playlist.m3u8?wmsAuthSign=abc1234
