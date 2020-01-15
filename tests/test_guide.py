@@ -1,3 +1,4 @@
+import logging
 from datetime import datetime, timedelta
 from unittest import TestCase
 from unittest.mock import patch, MagicMock
@@ -22,14 +23,13 @@ class TestGuide(TestCase):
         cm.__enter__.return_value = cm
         mock_urlopen.return_value = cm
 
-        self.g = Guide(Feed.SMOOTHSTREAMS)
-
     def test__build_stream_url_live247_rtmp(self):
         a = AuthSign(service=Service.LIVE247, auth=('fake', 'fake'))
         # set hash and expiration manually
         a.expiration_date = datetime.now() + timedelta(minutes=240)
         a.hash = 'abc1234'
 
+        self.g = Guide(Feed.SMOOTHSTREAMS)
         generated = self.g._build_stream_url(Server.NA_EAST_VA, 44, a, Quality.HD, Protocol.RTMP)
 
         self.assertEqual(
@@ -41,6 +41,7 @@ class TestGuide(TestCase):
         a.expiration_date = datetime.now() + timedelta(minutes=240)
         a.hash = 'abc1234'
 
+        self.g = Guide(Feed.SMOOTHSTREAMS)
         generated = self.g._build_stream_url(Server.ASIA_MIX, 10, a, Quality.LQ, Protocol.HLS)
 
         self.assertEqual('https://dAP.smoothstreams.tv:443/viewstvn/ch10q3.stream/playlist.m3u8?wmsAuthSign=abc1234',
@@ -52,6 +53,7 @@ class TestGuide(TestCase):
         a.expiration_date = datetime.now() + timedelta(minutes=240)
         a.hash = 'abc1234'
 
+        self.g = Guide(Feed.SMOOTHSTREAMS)
         generated = self.g._build_stream_url(Server.EU_MIX, 3, a, Quality.LQ, Protocol.MPEG)
 
         self.assertEqual('https://deu.smoothstreams.tv:443/viewstvn/ch03q3.stream/mpeg.2ts?wmsAuthSign=abc1234',
@@ -59,6 +61,8 @@ class TestGuide(TestCase):
 
     def test_generate_streams(self):
         a = AuthSign(service=Service.STREAMTVNOW, auth=('fake', 'fake'))
+
+        self.g = Guide(Feed.SMOOTHSTREAMS)
 
         with self.assertRaises(InvalidServer) as context:
             self.g.generate_streams('FakeServer', Quality.HD, a, protocol=Protocol.HLS)
@@ -76,6 +80,9 @@ class TestGuide(TestCase):
         self.assertTrue('abc is not a valid protocol!' in str(context.exception))
 
     def test__fetch_channels(self):
+
+        self.g = Guide(Feed.SMOOTHSTREAMS)
+
         self.assertEqual(150, len(self.g.channels))
 
         self.assertEqual("ESPNNews", self.g.channels[0]['name'])
@@ -85,6 +92,8 @@ class TestGuide(TestCase):
         self.assertTrue(self.g.channels[149]['icon'].endswith('smoothstreams.tv/assets/images/channels/150.png'))
 
     def test__detect_xml_feed_type(self):
+        self.g = Guide(Feed.SMOOTHSTREAMS)
+
         self.assertEqual('text/xml', self.g._get_content_type())
 
     @patch('urllib.request.urlopen')
