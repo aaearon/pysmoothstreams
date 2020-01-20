@@ -53,7 +53,7 @@ class AuthSign:
                     except Exception as e:
                         logging.critical(e)
 
-            # logging.info(f'Returning hash {self.hash}')
+            logging.info(f"Got a hash!")
             return self.hash
 
         else:

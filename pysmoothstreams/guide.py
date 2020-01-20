@@ -123,7 +123,7 @@ class Guide:
             playlist = 'mpeg.2ts'
 
         c = str(channel_number).zfill(2)
-        logging.debug(
+        logging.info(
             f'Creating stream url with scheme "{scheme}", server "{server}", port "{port}", playlist "{playlist}"')
         stream_url = f'{scheme}://{server}:{port}/{auth_sign.service.value}/ch{c}q{quality}.stream/{playlist}?wmsAuthSign={auth_sign.fetch_hash()}'
         logging.debug(f'Stream url: {stream_url}.')
