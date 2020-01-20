@@ -6,6 +6,8 @@ from datetime import datetime, timedelta
 from pysmoothstreams import Service
 from pysmoothstreams.exceptions import InvalidService
 
+logging = logging.getLogger(__name__)
+
 
 class AuthSign:
     def __init__(self, service=Service.LIVE247, auth=(None, None)):

@@ -9,6 +9,8 @@ from zipfile import ZipFile
 from pysmoothstreams import Feed, Quality, Server, Protocol, Service
 from pysmoothstreams.exceptions import InvalidQuality, InvalidServer, InvalidProtocol, InvalidContentType
 
+logging = logging.getLogger(__name__)
+
 
 class Guide:
     def __init__(self, feed=Feed.ALTEPG):
