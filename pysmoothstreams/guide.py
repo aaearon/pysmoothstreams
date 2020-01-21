@@ -101,7 +101,7 @@ class Guide:
 
         logging.debug(f'Fetched {len(self.channels)} channels.')
 
-    def _build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD, protocol=Protocol.HLS):
+    def build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD, protocol=Protocol.HLS):
         # https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/playlist.m3u8?wmsAuthSign=abc1234
         # https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/mpeg.2ts?wmsAuthSign=abc1234
         scheme = 'https'
@@ -144,7 +144,7 @@ class Guide:
         if self.channels:
             for c in self.channels:
                 stream = c.copy()
-                stream['url'] = self._build_stream_url(server, c['number'], auth_sign, quality, protocol)
+                stream['url'] = self.build_stream_url(server, c['number'], auth_sign, quality, protocol)
 
                 streams.append(stream)
 

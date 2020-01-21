@@ -23,38 +23,38 @@ class TestGuide(TestCase):
         cm.__enter__.return_value = cm
         mock_urlopen.return_value = cm
 
-    def test__build_stream_url_live247_rtmp(self):
+    def test_build_stream_url_live247_rtmp(self):
         a = AuthSign(service=Service.LIVE247, auth=('fake', 'fake'))
         # set hash and expiration manually
         a.expiration_date = datetime.now() + timedelta(minutes=240)
         a.hash = 'abc1234'
 
         self.g = Guide(Feed.SMOOTHSTREAMS)
-        generated = self.g._build_stream_url(Server.NA_EAST_VA, 44, a, Quality.HD, Protocol.RTMP)
+        generated = self.g.build_stream_url(Server.NA_EAST_VA, 44, a, Quality.HD, Protocol.RTMP)
 
         self.assertEqual(
             'rtmp://dnae2.smoothstreams.tv:3625/view247/ch44q1.stream/playlist.m3u8?wmsAuthSign=abc1234', generated)
 
-    def test__build_stream_url_streamtvnow_hls(self):
+    def test_build_stream_url_streamtvnow_hls(self):
         a = AuthSign(service=Service.STREAMTVNOW, auth=('fake', 'fake'))
         # set hash and expiration manually
         a.expiration_date = datetime.now() + timedelta(minutes=240)
         a.hash = 'abc1234'
 
         self.g = Guide(Feed.SMOOTHSTREAMS)
-        generated = self.g._build_stream_url(Server.ASIA_MIX, 10, a, Quality.LQ, Protocol.HLS)
+        generated = self.g.build_stream_url(Server.ASIA_MIX, 10, a, Quality.LQ, Protocol.HLS)
 
         self.assertEqual('https://dAP.smoothstreams.tv:443/viewstvn/ch10q3.stream/playlist.m3u8?wmsAuthSign=abc1234',
                          generated)
 
-    def test__build_stream_url_streamtvnow_mpeg(self):
+    def test_build_stream_url_streamtvnow_mpeg(self):
         a = AuthSign(service=Service.STREAMTVNOW, auth=('fake', 'fake'))
         # set hash and expiration manually
         a.expiration_date = datetime.now() + timedelta(minutes=240)
         a.hash = 'abc1234'
 
         self.g = Guide(Feed.SMOOTHSTREAMS)
-        generated = self.g._build_stream_url(Server.EU_MIX, 3, a, Quality.LQ, Protocol.MPEG)
+        generated = self.g.build_stream_url(Server.EU_MIX, 3, a, Quality.LQ, Protocol.MPEG)
 
         self.assertEqual('https://deu.smoothstreams.tv:443/viewstvn/ch03q3.stream/mpeg.2ts?wmsAuthSign=abc1234',
                          generated)
