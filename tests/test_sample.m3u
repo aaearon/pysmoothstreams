@@ -1,0 +1,301 @@
+#EXTM3U
+#EXTINF: tvg-id="1" tvg-name="ESPNNews" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/1.png" tvg-chno="1", ESPNNews
+https://dnae2.smoothstreams.tv:443/view247/ch01q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="2" tvg-name="ESPN" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/2.png" tvg-chno="2", ESPN
+https://dnae2.smoothstreams.tv:443/view247/ch02q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="3" tvg-name="ESPN2" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/3.png" tvg-chno="3", ESPN2
+https://dnae2.smoothstreams.tv:443/view247/ch03q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="4" tvg-name="ESPNU" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/4.png" tvg-chno="4", ESPNU
+https://dnae2.smoothstreams.tv:443/view247/ch04q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="5" tvg-name="FS1" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/5.png" tvg-chno="5", FS1
+https://dnae2.smoothstreams.tv:443/view247/ch05q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="6" tvg-name="FS2" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/6.png" tvg-chno="6", FS2
+https://dnae2.smoothstreams.tv:443/view247/ch06q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="7" tvg-name="NFL Network" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/7.png" tvg-chno="7", NFL Network
+https://dnae2.smoothstreams.tv:443/view247/ch07q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="8" tvg-name="NBA TV" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/8.png" tvg-chno="8", NBA TV
+https://dnae2.smoothstreams.tv:443/view247/ch08q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="9" tvg-name="MLB Network" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/9.png" tvg-chno="9", MLB Network
+https://dnae2.smoothstreams.tv:443/view247/ch09q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="10" tvg-name="NHL Network" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/10.png" tvg-chno="10", NHL Network
+https://dnae2.smoothstreams.tv:443/view247/ch10q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="11" tvg-name="NBC SN" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/11.png" tvg-chno="11", NBC SN
+https://dnae2.smoothstreams.tv:443/view247/ch11q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="12" tvg-name="Golf Channel" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/12.png" tvg-chno="12", Golf Channel
+https://dnae2.smoothstreams.tv:443/view247/ch12q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="13" tvg-name="Tennis Channel" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/13.png" tvg-chno="13", Tennis Channel
+https://dnae2.smoothstreams.tv:443/view247/ch13q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="14" tvg-name="CBS SN" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/14.png" tvg-chno="14", CBS SN
+https://dnae2.smoothstreams.tv:443/view247/ch14q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="15" tvg-name="Fight Network" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/15.png" tvg-chno="15", Fight Network
+https://dnae2.smoothstreams.tv:443/view247/ch15q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="16" tvg-name="WWE Network" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/16.png" tvg-chno="16", WWE Network
+https://dnae2.smoothstreams.tv:443/view247/ch16q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="17" tvg-name="Sportsnet World" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/17.png" tvg-chno="17", Sportsnet World
+https://dnae2.smoothstreams.tv:443/view247/ch17q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="18" tvg-name="Sportsnet360" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/18.png" tvg-chno="18", Sportsnet360
+https://dnae2.smoothstreams.tv:443/view247/ch18q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="19" tvg-name="Sportsnet Ontario" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/19.png" tvg-chno="19", Sportsnet Ontario
+https://dnae2.smoothstreams.tv:443/view247/ch19q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="20" tvg-name="SNET1" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/20.png" tvg-chno="20", SNET1
+https://dnae2.smoothstreams.tv:443/view247/ch20q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="21" tvg-name="TSN" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/21.png" tvg-chno="21", TSN
+https://dnae2.smoothstreams.tv:443/view247/ch21q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="22" tvg-name="Univision Deportes" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/22.png" tvg-chno="22", Univision Deportes
+https://dnae2.smoothstreams.tv:443/view247/ch22q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="23" tvg-name="ESPN Deportes" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/23.png" tvg-chno="23", ESPN Deportes
+https://dnae2.smoothstreams.tv:443/view247/ch23q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="24" tvg-name="Comedy Central" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/24.png" tvg-chno="24", Comedy Central
+https://dnae2.smoothstreams.tv:443/view247/ch24q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="25" tvg-name="Paramount Network HD" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/25.png" tvg-chno="25", Paramount Network HD
+https://dnae2.smoothstreams.tv:443/view247/ch25q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="26" tvg-name="USA" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/26.png" tvg-chno="26", USA
+https://dnae2.smoothstreams.tv:443/view247/ch26q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="27" tvg-name="A&E" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/27.png" tvg-chno="27", A&E
+https://dnae2.smoothstreams.tv:443/view247/ch27q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="28" tvg-name="TBS" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/28.png" tvg-chno="28", TBS
+https://dnae2.smoothstreams.tv:443/view247/ch28q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="29" tvg-name="TNT" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/29.png" tvg-chno="29", TNT
+https://dnae2.smoothstreams.tv:443/view247/ch29q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="30" tvg-name="CBS" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/30.png" tvg-chno="30", CBS
+https://dnae2.smoothstreams.tv:443/view247/ch30q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="31" tvg-name="Cartoon Network" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/31.png" tvg-chno="31", Cartoon Network
+https://dnae2.smoothstreams.tv:443/view247/ch31q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="32" tvg-name="HGTV" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/32.png" tvg-chno="32", HGTV
+https://dnae2.smoothstreams.tv:443/view247/ch32q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="33" tvg-name="CNN" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/33.png" tvg-chno="33", CNN
+https://dnae2.smoothstreams.tv:443/view247/ch33q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="34" tvg-name="NBC" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/34.png" tvg-chno="34", NBC
+https://dnae2.smoothstreams.tv:443/view247/ch34q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="35" tvg-name="ABC" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/35.png" tvg-chno="35", ABC
+https://dnae2.smoothstreams.tv:443/view247/ch35q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="36" tvg-name="OPEN" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/36.png" tvg-chno="36", OPEN
+https://dnae2.smoothstreams.tv:443/view247/ch36q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="37" tvg-name="CBC News" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/37.png" tvg-chno="37", CBC News
+https://dnae2.smoothstreams.tv:443/view247/ch37q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="38" tvg-name="OPEN" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="38", OPEN
+https://dnae2.smoothstreams.tv:443/view247/ch38q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="39" tvg-name="OPEN" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/39.png" tvg-chno="39", OPEN
+https://dnae2.smoothstreams.tv:443/view247/ch39q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="40" tvg-name="OPEN" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="40", OPEN
+https://dnae2.smoothstreams.tv:443/view247/ch40q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="41" tvg-name="History" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/41.png" tvg-chno="41", History
+https://dnae2.smoothstreams.tv:443/view247/ch41q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="42" tvg-name="Discovery" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/42.png" tvg-chno="42", Discovery
+https://dnae2.smoothstreams.tv:443/view247/ch42q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="43" tvg-name="Nat Geo" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/43.png" tvg-chno="43", Nat Geo
+https://dnae2.smoothstreams.tv:443/view247/ch43q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="44" tvg-name="FX" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/44.png" tvg-chno="44", FX
+https://dnae2.smoothstreams.tv:443/view247/ch44q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="45" tvg-name="FXX" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/45.png" tvg-chno="45", FXX
+https://dnae2.smoothstreams.tv:443/view247/ch45q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="46" tvg-name="CNBC" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/46.png" tvg-chno="46", CNBC
+https://dnae2.smoothstreams.tv:443/view247/ch46q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="47" tvg-name="AMC" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/47.png" tvg-chno="47", AMC
+https://dnae2.smoothstreams.tv:443/view247/ch47q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="48" tvg-name="HBO" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/48.png" tvg-chno="48", HBO
+https://dnae2.smoothstreams.tv:443/view247/ch48q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="49" tvg-name="HBO Comedy" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/49.png" tvg-chno="49", HBO Comedy
+https://dnae2.smoothstreams.tv:443/view247/ch49q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="50" tvg-name="Food Network" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/50.png" tvg-chno="50", Food Network
+https://dnae2.smoothstreams.tv:443/view247/ch50q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="51" tvg-name="HBO Zone" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/51.png" tvg-chno="51", HBO Zone
+https://dnae2.smoothstreams.tv:443/view247/ch51q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="52" tvg-name="Showtime East" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/52.png" tvg-chno="52", Showtime East
+https://dnae2.smoothstreams.tv:443/view247/ch52q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="53" tvg-name="ActionMax HD East" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/53.png" tvg-chno="53", ActionMax HD East
+https://dnae2.smoothstreams.tv:443/view247/ch53q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="54" tvg-name="Cinemax Moremax" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/54.png" tvg-chno="54", Cinemax Moremax
+https://dnae2.smoothstreams.tv:443/view247/ch54q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="55" tvg-name="Starz Cinema" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/55.png" tvg-chno="55", Starz Cinema
+https://dnae2.smoothstreams.tv:443/view247/ch55q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="56" tvg-name="Starz East" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/56.png" tvg-chno="56", Starz East
+https://dnae2.smoothstreams.tv:443/view247/ch56q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="57" tvg-name="Starz Encore" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/57.png" tvg-chno="57", Starz Encore
+https://dnae2.smoothstreams.tv:443/view247/ch57q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="58" tvg-name="Investigation Discovery" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/58.png" tvg-chno="58", Investigation Discovery
+https://dnae2.smoothstreams.tv:443/view247/ch58q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="59" tvg-name="Cinemax" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/59.png" tvg-chno="59", Cinemax
+https://dnae2.smoothstreams.tv:443/view247/ch59q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="60" tvg-name="Cinemax 5 Star" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/60.png" tvg-chno="60", Cinemax 5 Star
+https://dnae2.smoothstreams.tv:443/view247/ch60q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="61" tvg-name="FOX" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/61.png" tvg-chno="61", FOX
+https://dnae2.smoothstreams.tv:443/view247/ch61q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="62" tvg-name="OPEN" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="62", OPEN
+https://dnae2.smoothstreams.tv:443/view247/ch62q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="63" tvg-name="CBC" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/63.png" tvg-chno="63", CBC
+https://dnae2.smoothstreams.tv:443/view247/ch63q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="64" tvg-name="OTA TBD" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="64", OTA TBD
+https://dnae2.smoothstreams.tv:443/view247/ch64q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="65" tvg-name="OPEN" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="65", OPEN
+https://dnae2.smoothstreams.tv:443/view247/ch65q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="66" tvg-name="CityTV" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/66.png" tvg-chno="66", CityTV
+https://dnae2.smoothstreams.tv:443/view247/ch66q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="67" tvg-name="Global" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/67.png" tvg-chno="67", Global
+https://dnae2.smoothstreams.tv:443/view247/ch67q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="68" tvg-name="CTV" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/68.png" tvg-chno="68", CTV
+https://dnae2.smoothstreams.tv:443/view247/ch68q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="69" tvg-name="CTV2" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/69.png" tvg-chno="69", CTV2
+https://dnae2.smoothstreams.tv:443/view247/ch69q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="70" tvg-name="PAC-12" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/70.png" tvg-chno="70", PAC-12
+https://dnae2.smoothstreams.tv:443/view247/ch70q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="71" tvg-name="BBC World News" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/71.png" tvg-chno="71", BBC World News
+https://dnae2.smoothstreams.tv:443/view247/ch71q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="72" tvg-name="FuboTV" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/72.png" tvg-chno="72", FuboTV
+https://dnae2.smoothstreams.tv:443/view247/ch72q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="73" tvg-name="Eleven Sports" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/73.png" tvg-chno="73", Eleven Sports
+https://dnae2.smoothstreams.tv:443/view247/ch73q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="74" tvg-name="MMA-TV 01" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/74.png" tvg-chno="74", MMA-TV 01
+https://dnae2.smoothstreams.tv:443/view247/ch74q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="75" tvg-name="MMA-TV 02" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/75.png" tvg-chno="75", MMA-TV 02
+https://dnae2.smoothstreams.tv:443/view247/ch75q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="76" tvg-name="MMA-TV 03" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/76.png" tvg-chno="76", MMA-TV 03
+https://dnae2.smoothstreams.tv:443/view247/ch76q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="77" tvg-name="Cooking Channel" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/77.png" tvg-chno="77", Cooking Channel
+https://dnae2.smoothstreams.tv:443/view247/ch77q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="78" tvg-name="BBC America" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/78.png" tvg-chno="78", BBC America
+https://dnae2.smoothstreams.tv:443/view247/ch78q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="79" tvg-name="Big10 Network" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/79.png" tvg-chno="79", Big10 Network
+https://dnae2.smoothstreams.tv:443/view247/ch79q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="80" tvg-name="Willow" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/80.png" tvg-chno="80", Willow
+https://dnae2.smoothstreams.tv:443/view247/ch80q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="81" tvg-name="EU" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/81.png" tvg-chno="81", EU
+https://dnae2.smoothstreams.tv:443/view247/ch81q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="82" tvg-name="EU" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/82.png" tvg-chno="82", EU
+https://dnae2.smoothstreams.tv:443/view247/ch82q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="83" tvg-name="EU" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/83.png" tvg-chno="83", EU
+https://dnae2.smoothstreams.tv:443/view247/ch83q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="84" tvg-name="EU" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/84.png" tvg-chno="84", EU
+https://dnae2.smoothstreams.tv:443/view247/ch84q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="85" tvg-name="EU" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/85.png" tvg-chno="85", EU
+https://dnae2.smoothstreams.tv:443/view247/ch85q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="86" tvg-name="EU" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/86.png" tvg-chno="86", EU
+https://dnae2.smoothstreams.tv:443/view247/ch86q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="87" tvg-name="EU" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/87.png" tvg-chno="87", EU
+https://dnae2.smoothstreams.tv:443/view247/ch87q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="88" tvg-name="Euro Sat/DE" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="88", Euro Sat/DE
+https://dnae2.smoothstreams.tv:443/view247/ch88q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="89" tvg-name="Euro Sat/DE" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/89.png" tvg-chno="89", Euro Sat/DE
+https://dnae2.smoothstreams.tv:443/view247/ch89q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="90" tvg-name="NL/EU" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/90.png" tvg-chno="90", NL/EU
+https://dnae2.smoothstreams.tv:443/view247/ch90q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="91" tvg-name="Euro Sat" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="91", Euro Sat
+https://dnae2.smoothstreams.tv:443/view247/ch91q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="92" tvg-name="Euro Sat" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="92", Euro Sat
+https://dnae2.smoothstreams.tv:443/view247/ch92q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="93" tvg-name="UK" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="93", UK
+https://dnae2.smoothstreams.tv:443/view247/ch93q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="94" tvg-name="Euro Sat" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="94", Euro Sat
+https://dnae2.smoothstreams.tv:443/view247/ch94q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="95" tvg-name="NL" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="95", NL
+https://dnae2.smoothstreams.tv:443/view247/ch95q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="96" tvg-name="NL" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="96", NL
+https://dnae2.smoothstreams.tv:443/view247/ch96q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="97" tvg-name="UK" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/97.png" tvg-chno="97", UK
+https://dnae2.smoothstreams.tv:443/view247/ch97q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="98" tvg-name="UK" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/98.png" tvg-chno="98", UK
+https://dnae2.smoothstreams.tv:443/view247/ch98q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="99" tvg-name="EU" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/99.png" tvg-chno="99", EU
+https://dnae2.smoothstreams.tv:443/view247/ch99q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="100" tvg-name="Movistar Liga de Campeones" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="100", Movistar Liga de Campeones
+https://dnae2.smoothstreams.tv:443/view247/ch100q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="101" tvg-name="Sport TV 1" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/101.png" tvg-chno="101", Sport TV 1
+https://dnae2.smoothstreams.tv:443/view247/ch101q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="102" tvg-name="Sport TV 2" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/102.png" tvg-chno="102", Sport TV 2
+https://dnae2.smoothstreams.tv:443/view247/ch102q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="103" tvg-name="EU" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/103.png" tvg-chno="103", EU
+https://dnae2.smoothstreams.tv:443/view247/ch103q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="104" tvg-name="EU" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/" tvg-chno="104", EU
+https://dnae2.smoothstreams.tv:443/view247/ch104q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="105" tvg-name="EUROSPORT 1" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/105.png" tvg-chno="105", EUROSPORT 1
+https://dnae2.smoothstreams.tv:443/view247/ch105q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="106" tvg-name="EuroSport 2" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/106.png" tvg-chno="106", EuroSport 2
+https://dnae2.smoothstreams.tv:443/view247/ch106q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="107" tvg-name="Eir Sport 2" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/107.png" tvg-chno="107", Eir Sport 2
+https://dnae2.smoothstreams.tv:443/view247/ch107q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="108" tvg-name="BT Sport 1 HD" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/108.png" tvg-chno="108", BT Sport 1 HD
+https://dnae2.smoothstreams.tv:443/view247/ch108q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="109" tvg-name="BT Sport 2 HD" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/109.png" tvg-chno="109", BT Sport 2 HD
+https://dnae2.smoothstreams.tv:443/view247/ch109q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="110" tvg-name="BT Sport 3 HD" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/110.png" tvg-chno="110", BT Sport 3 HD
+https://dnae2.smoothstreams.tv:443/view247/ch110q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="111" tvg-name="BT Sport ESPN HD" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/111.png" tvg-chno="111", BT Sport ESPN HD
+https://dnae2.smoothstreams.tv:443/view247/ch111q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="112" tvg-name="SSN" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/112.png" tvg-chno="112", SSN
+https://dnae2.smoothstreams.tv:443/view247/ch112q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="113" tvg-name="Sky Sports Main Event" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/113.png" tvg-chno="113", Sky Sports Main Event
+https://dnae2.smoothstreams.tv:443/view247/ch113q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="114" tvg-name="Sky Sports Cricket" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/114.png" tvg-chno="114", Sky Sports Cricket
+https://dnae2.smoothstreams.tv:443/view247/ch114q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="115" tvg-name="Sky Sports Action" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/115.png" tvg-chno="115", Sky Sports Action
+https://dnae2.smoothstreams.tv:443/view247/ch115q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="116" tvg-name="Sky Sports Golf" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/116.png" tvg-chno="116", Sky Sports Golf
+https://dnae2.smoothstreams.tv:443/view247/ch116q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="117" tvg-name="Sky Sports PL" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/117.png" tvg-chno="117", Sky Sports PL
+https://dnae2.smoothstreams.tv:443/view247/ch117q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="118" tvg-name="Sky Sports F1 UK" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/118.png" tvg-chno="118", Sky Sports F1 UK
+https://dnae2.smoothstreams.tv:443/view247/ch118q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="119" tvg-name="Sky Sports Mix" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/119.png" tvg-chno="119", Sky Sports Mix
+https://dnae2.smoothstreams.tv:443/view247/ch119q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="120" tvg-name="Sky Sports Football" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/120.png" tvg-chno="120", Sky Sports Football
+https://dnae2.smoothstreams.tv:443/view247/ch120q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="121" tvg-name="Sky Sports Arena" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/121.png" tvg-chno="121", Sky Sports Arena
+https://dnae2.smoothstreams.tv:443/view247/ch121q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="122" tvg-name="Racing UK" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/122.png" tvg-chno="122", Racing UK
+https://dnae2.smoothstreams.tv:443/view247/ch122q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="123" tvg-name="Bein Sports USA" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/123.png" tvg-chno="123", Bein Sports USA
+https://dnae2.smoothstreams.tv:443/view247/ch123q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="124" tvg-name="Bein Sports ES" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/124.png" tvg-chno="124", Bein Sports ES
+https://dnae2.smoothstreams.tv:443/view247/ch124q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="125" tvg-name="UFC Fight Pass" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/125.png" tvg-chno="125", UFC Fight Pass
+https://dnae2.smoothstreams.tv:443/view247/ch125q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="126" tvg-name="Fox News" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/126.png" tvg-chno="126", Fox News
+https://dnae2.smoothstreams.tv:443/view247/ch126q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="127" tvg-name="MSNBC" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/127.png" tvg-chno="127", MSNBC
+https://dnae2.smoothstreams.tv:443/view247/ch127q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="128" tvg-name="Channel 128" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/128.png" tvg-chno="128", Channel 128
+https://dnae2.smoothstreams.tv:443/view247/ch128q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="129" tvg-name="Channel 129" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/129.png" tvg-chno="129", Channel 129
+https://dnae2.smoothstreams.tv:443/view247/ch129q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="130" tvg-name="Channel 130" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/130.png" tvg-chno="130", Channel 130
+https://dnae2.smoothstreams.tv:443/view247/ch130q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="131" tvg-name="Lifetime Channel" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/131.png" tvg-chno="131", Lifetime Channel
+https://dnae2.smoothstreams.tv:443/view247/ch131q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="132" tvg-name="Hallmark Channel" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/132.png" tvg-chno="132", Hallmark Channel
+https://dnae2.smoothstreams.tv:443/view247/ch132q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="133" tvg-name="Channel 133" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/133.png" tvg-chno="133", Channel 133
+https://dnae2.smoothstreams.tv:443/view247/ch133q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="134" tvg-name="Channel 134" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/134.png" tvg-chno="134", Channel 134
+https://dnae2.smoothstreams.tv:443/view247/ch134q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="135" tvg-name="Channel 135" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/135.png" tvg-chno="135", Channel 135
+https://dnae2.smoothstreams.tv:443/view247/ch135q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="136" tvg-name="Channel 136" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/136.png" tvg-chno="136", Channel 136
+https://dnae2.smoothstreams.tv:443/view247/ch136q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="137" tvg-name="Channel 137" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/137.png" tvg-chno="137", Channel 137
+https://dnae2.smoothstreams.tv:443/view247/ch137q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="138" tvg-name="Channel 138" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/138.png" tvg-chno="138", Channel 138
+https://dnae2.smoothstreams.tv:443/view247/ch138q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="139" tvg-name="Channel 139" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/139.png" tvg-chno="139", Channel 139
+https://dnae2.smoothstreams.tv:443/view247/ch139q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="140" tvg-name="Channel 140" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/140.png" tvg-chno="140", Channel 140
+https://dnae2.smoothstreams.tv:443/view247/ch140q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="141" tvg-name="Channel 141" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/141.png" tvg-chno="141", Channel 141
+https://dnae2.smoothstreams.tv:443/view247/ch141q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="142" tvg-name="Channel 142" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/142.png" tvg-chno="142", Channel 142
+https://dnae2.smoothstreams.tv:443/view247/ch142q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="143" tvg-name="Channel 143" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/143.png" tvg-chno="143", Channel 143
+https://dnae2.smoothstreams.tv:443/view247/ch143q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="144" tvg-name="Channel 144" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/144.png" tvg-chno="144", Channel 144
+https://dnae2.smoothstreams.tv:443/view247/ch144q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="145" tvg-name="Weather Channel HD" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/145.png" tvg-chno="145", Weather Channel HD
+https://dnae2.smoothstreams.tv:443/view247/ch145q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="146" tvg-name="Channel 146" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/146.png" tvg-chno="146", Channel 146
+https://dnae2.smoothstreams.tv:443/view247/ch146q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="147" tvg-name="Channel 147" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/147.png" tvg-chno="147", Channel 147
+https://dnae2.smoothstreams.tv:443/view247/ch147q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="148" tvg-name="Channel 148" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/148.png" tvg-chno="148", Channel 148
+https://dnae2.smoothstreams.tv:443/view247/ch148q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="149" tvg-name="Channel 149" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/149.png" tvg-chno="149", Channel 149
+https://dnae2.smoothstreams.tv:443/view247/ch149q1.stream/playlist.m3u8?wmsAuthSign=abc1234
+#EXTINF: tvg-id="150" tvg-name="Channel 150" tvg-logo="https://fast-guide.smoothstreams.tv/assets/images/channels/150.png" tvg-chno="150", Channel 150
+https://dnae2.smoothstreams.tv:443/view247/ch150q1.stream/playlist.m3u8?wmsAuthSign=abc1234
