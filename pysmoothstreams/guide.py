@@ -95,7 +95,8 @@ class Guide:
             if element.tag == 'channel':
                 c = {'number': channel,
                      'name': element.find('display-name').text,
-                     'icon': element.find('icon').attrib['src']}
+                     'icon': element.find('icon').attrib['src'],
+                     'id': element.attrib['id']}
                 channel += 1
                 self.channels.append(c)
 
