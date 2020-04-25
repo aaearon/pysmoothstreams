@@ -79,9 +79,9 @@ class Guide:
             else:
                 raise InvalidContentType(f'Got an unexpected Content-Type: {content_type} from {self.url}.')
 
-            if self.epg_data.startswith('<?xml ') is False:
+            if self.epg_data.startswith(b'<?xml ') is False:
                 logging.debug('XML Declaration not found. Adding to EPG data.')
-                self.epg_data = '<?xml version="1.0" ?>\n' + self.epg_data
+                self.epg_data = b'<?xml version="1.0" ?>\n' + self.epg_data
 
         else:
             logging.debug(f'EPG data is not stale ({self.expires}).')
