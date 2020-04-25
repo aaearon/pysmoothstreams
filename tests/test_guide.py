@@ -1,4 +1,3 @@
-import logging
 from datetime import datetime, timedelta
 from unittest import TestCase
 from unittest.mock import patch, MagicMock
@@ -123,3 +122,19 @@ class TestGuide(TestCase):
         mock_urlopen.return_value = cm
 
         self.assertEqual(150, len(self.g.channels))
+
+    @patch('urllib.request.urlopen')
+    def test__add_xml_declaration(self, mock_urlopen):
+        with open('./tests/test_altepg1.xml', 'r') as f:
+            json_feed = f.read()
+
+            cm = MagicMock()
+            cm.getcode.return_value = 200
+            cm.read.return_value = json_feed
+            cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT',
+                                    'Content-Type': 'text/xml'}
+            cm.__enter__.return_value = cm
+            mock_urlopen.return_value = cm
+
+            g = Guide(Feed.ALTEPG)
+            self.assertTrue(g.epg_data.startswith('<?xml version'))
