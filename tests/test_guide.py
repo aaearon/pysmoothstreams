@@ -16,7 +16,7 @@ class TestGuide(TestCase):
 
         cm = MagicMock()
         cm.getcode.return_value = 200
-        cm.read.return_value = json_feed
+        cm.read.return_value = json_feed.encode()
         cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT',
                                 'Content-Type': 'text/xml'}
         cm.__enter__.return_value = cm
@@ -115,7 +115,7 @@ class TestGuide(TestCase):
             feed = f.read()
 
         cm = MagicMock()
-        cm.read.return_value = feed
+        cm.read.return_value = feed  # No decode, already bytes
         cm.info.return_value = {'Expires': 'Tue, 07 Jan 2020 00:53:17 GMT',
                                 'Content-Type': 'application/octet-stream'}
         cm.__enter__.return_value = cm
@@ -130,11 +130,11 @@ class TestGuide(TestCase):
 
             cm = MagicMock()
             cm.getcode.return_value = 200
-            cm.read.return_value = json_feed
+            cm.read.return_value = json_feed.encode()
             cm.info.return_value = {'Expires': 'Sat, 25 Aug 2018 22:39:41 GMT',
                                     'Content-Type': 'text/xml'}
             cm.__enter__.return_value = cm
             mock_urlopen.return_value = cm
 
             g = Guide(Feed.ALTEPG)
-            self.assertTrue(g.epg_data.startswith('<?xml version'))
+            self.assertTrue(g.epg_data.startswith(b'<?xml version'))
