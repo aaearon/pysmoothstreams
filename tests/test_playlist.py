@@ -35,4 +35,4 @@ class TestGuide(TestCase):
 
         with open('./tests/test_sample.m3u') as f:
             self.assertEqual(f.read(),
-                             p.generate_m3u_playlist(Server.NA_EAST_VA, a, Quality.HD, Protocol.HLS))
+                             p.generate_m3u_playlist(Server.NA_EAST_NY, a, Quality.HD, Protocol.HLS))

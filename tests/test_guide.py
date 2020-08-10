@@ -30,7 +30,7 @@ class TestGuide(TestCase):
         a.expiration_date = datetime.now() + timedelta(minutes=240)
         a.hash = 'abc1234'
 
-        generated = self.g.build_stream_url(Server.NA_EAST_VA, 44, a, Quality.HD, Protocol.RTMP)
+        generated = self.g.build_stream_url(Server.NA_EAST_NY, 44, a, Quality.HD, Protocol.RTMP)
 
         self.assertEqual(
             'rtmp://dnae2.smoothstreams.tv:3625/view247/ch44q1.stream/playlist.m3u8?wmsAuthSign=abc1234', generated)
