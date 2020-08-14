@@ -33,13 +33,14 @@ class AuthSign:
     def fetch_hash(self):
         now = datetime.now()
 
-        if self.username is not None and self.password is not None:
-            logging.debug('Username and password are not none.')
+        if self.hash is None or now > self.expiration_date:
+            logging.warning('Hash is either none or may be expired. Getting a new one...')
 
-            if self.hash is None or now > self.expiration_date:
-                logging.warning('Hash is either none or may be expired. Getting a new one...')
-                hash_url = f'{self.url}?username={self.username}&password={self.password}&site={self.service.value}'
-                # logging.debug(f'Fetching hash at {hash_url}')
+            if self.username is not None and self.password is not None:
+                logging.debug('Username and password are not none.')
+
+                hash_url = f'{self.url}?username={self.username}&site={self.service.value}&password={self.password}'
+                logging.debug(f'Fetching hash at {hash_url}')
 
                 with urllib.request.urlopen(hash_url) as response:
 
@@ -53,11 +54,11 @@ class AuthSign:
                     except Exception as e:
                         logging.critical(e)
 
-            logging.debug(f'Got a hash!')
-            return self.hash
+            else:
+                raise ValueError('Username or password is not set.')
 
-        else:
-            raise ValueError('Username or password is not set.')
+        logging.debug(f'Got a hash!')
+        return self.hash
 
     def set_expiration_date(self, minutes):
         now = datetime.now()
