@@ -30,14 +30,14 @@ class Guide:
 
         with urllib.request.urlopen(head_request) as response:
             content_type = response.info()['Content-Type']
-            logging.debug(f'Content-Type header is {content_type}.')
+            logging.debug('Content-Type header is {content_type}.'.format(content_type=content_type))
 
         return content_type
 
     def _fetch_zipped_feed(self):
         with urllib.request.urlopen(self.url) as response:
             self.expires = self._parse_expiration_string(response.info()['Expires'])
-            logging.debug(f'Guide info set to expire on {self.expires}.')
+            logging.debug('Guide info set to expire on {expire_date}.'.format(expire_date=self.expires))
 
             zipped_feed = ZipFile(BytesIO(response.read()))
             for file in zipped_feed.namelist():
@@ -48,7 +48,7 @@ class Guide:
     def _fetch_gzipped_feed(self):
         with urllib.request.urlopen(self.url) as response:
             self.expires = self._parse_expiration_string(response.info()['Expires'])
-            logging.debug(f'Guide info set to expire on {self.expires}.')
+            logging.debug('Guide info set to expire on {expire_date}.'.format(expire_date=self.expires))
 
             data = response.read()
 
@@ -65,7 +65,7 @@ class Guide:
 
     def _fetch_epg_data(self, force=False):
         if self.expires is None or datetime.now() > self.expires or force:
-            logging.debug(f'No EPG data or fetch was forced.')
+            logging.debug('No EPG data or fetch was forced.')
 
             content_type = self._get_content_type()
 
@@ -77,14 +77,14 @@ class Guide:
             elif content_type == 'application/xml' or content_type == 'text/xml':
                 self.epg_data = self._fetch_feed()
             else:
-                raise InvalidContentType(f'Got an unexpected Content-Type: {content_type} from {self.url}.')
+                raise InvalidContentType('Got an unexpected Content-Type: {content_type} from {url}.'.format(content_type=content_type, url=self.url))
 
             if self.epg_data.startswith(b'<?xml ') is False:
                 logging.debug('XML Declaration not found. Adding to EPG data.')
                 self.epg_data = b'<?xml version="1.0" ?>\n' + self.epg_data
 
         else:
-            logging.debug(f'EPG data is not stale ({self.expires}).')
+            logging.debug('EPG data is not stale ({expiration_date}).'.format(expiration_date=self.expires))
 
     def _fetch_channels(self, force=False):
 
@@ -104,7 +104,7 @@ class Guide:
                 channel += 1
                 self.channels.append(c)
 
-        logging.debug(f'Fetched {len(self.channels)} channels.')
+        logging.debug('Fetched {number_of_channels} channels.'.format(number_of_channels=len(self.channels)))
 
     def build_stream_url(self, server, channel_number, auth_sign, quality=Quality.HD, protocol=Protocol.HLS):
         # https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/playlist.m3u8?wmsAuthSign=abc1234
@@ -127,24 +127,24 @@ class Guide:
         if protocol == Protocol.MPEG:
             playlist = 'mpeg.2ts'
 
-        c = str(channel_number).zfill(2)
+        c = str(channel_number).zfill(2)        
         logging.info(
-            f'Creating stream url with scheme "{scheme}", server "{server}", port "{port}", playlist "{playlist}"')
-        stream_url = f'{scheme}://{server}:{port}/{auth_sign.service.value}/ch{c}q{quality}.stream/{playlist}?wmsAuthSign={auth_sign.fetch_hash()}'
-        logging.debug(f'Stream url: {stream_url}.')
+            'Creating stream url with scheme "{scheme}", server "{server}", port "{port}", playlist "{playlist}"'.format(scheme=scheme,server=server,port=port,playlist=playlist))
+        stream_url = '{scheme}://{server}:{port}/{service}/ch{channel_number}q{quality}.stream/{playlist}?wmsAuthSign={auth_sign}'.format(scheme=scheme,server=server,port=port,service=auth_sign.service.value,channel_number=c,quality=quality,playlist=playlist,auth_sign=auth_sign.fetch_hash())
+        logging.debug('Stream url: {stream_url}.'.format(stream_url=stream_url))
         return stream_url
 
     def generate_streams(self, server, quality, auth_sign, protocol=Protocol.HLS):
         streams = []
 
         if not isinstance(server, Server):
-            raise InvalidServer(f'{server} is not a valid server!')
+            raise InvalidServer('{server} is not a valid server!'.format(server=server))
 
         if not isinstance(quality, Quality):
-            raise InvalidQuality(f'{quality} is not a valid quality!')
+            raise InvalidQuality('{quality} is not a valid quality!'.format(quality=quality))
 
         if not isinstance(protocol, Protocol):
-            raise InvalidProtocol(f'{protocol} is not a valid protocol!')
+            raise InvalidProtocol('{protocol} is not a valid protocol!'.format(protocol=protocol))
 
         if self.channels:
             for c in self.channels:
@@ -153,5 +153,5 @@ class Guide:
 
                 streams.append(stream)
 
-            logging.info(f'Returning {len(streams)} streams.')
+            logging.info('Returning {number_of_streams} streams.'.format(number_of_streams=len(streams)))
             return streams
