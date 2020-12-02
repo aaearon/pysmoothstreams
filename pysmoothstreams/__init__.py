@@ -7,12 +7,12 @@ class Feed(Enum):
 
 
 class Quality(Enum):
-    HD = 1
-    HQ = 2
-    LQ = 3
+    HD = "q1"
+    HQ = "q2"
+    LQ = "q3"
 
     def __str__(self):
-        return str(self.value)
+        return self.value
 
 
 class Protocol(Enum):
@@ -20,6 +20,7 @@ class Protocol(Enum):
     RTMP = 2
     MPEG = 3
     RTSP = 4
+    DASH = 5
 
     def __str__(self):
         return self.value

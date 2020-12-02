@@ -149,7 +149,7 @@ class Guide:
         # https://dEU.smoothstreams.tv:443/view247/ch01q1.stream/mpeg.2ts?wmsAuthSign=abc1234
         scheme = "https"
         port = "443"
-        playlist = "playlist.m3u8"
+        playlist = ".stream/playlist.m3u8"
 
         if protocol == Protocol.RTMP:
             scheme = "rtmp"
@@ -163,11 +163,15 @@ class Guide:
                 port = "3635"
 
         if protocol == Protocol.MPEG:
-            playlist = "mpeg.2ts"
+            playlist = ".stream/mpeg.2ts"
 
         if protocol == Protocol.RTSP:
             scheme = "rtsp"
             port = "2935"
+
+        if protocol == Protocol.DASH:
+            playlist = "/manifest.mpd"
+            quality = ".smil"
 
         c = str(channel_number).zfill(2)
         logging.info(
@@ -175,7 +179,7 @@ class Guide:
                 scheme=scheme, server=server, port=port, playlist=playlist
             )
         )
-        stream_url = "{scheme}://{server}:{port}/{service}/ch{channel_number}q{quality}.stream/{playlist}?wmsAuthSign={auth_sign}".format(
+        stream_url = "{scheme}://{server}:{port}/{service}/ch{channel_number}{quality}{playlist}?wmsAuthSign={auth_sign}".format(
             scheme=scheme,
             server=server,
             port=port,
