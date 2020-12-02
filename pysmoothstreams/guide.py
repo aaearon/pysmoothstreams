@@ -165,6 +165,10 @@ class Guide:
         if protocol == Protocol.MPEG:
             playlist = "mpeg.2ts"
 
+        if protocol == Protocol.RTSP:
+            scheme = "rtsp"
+            port = "2935"
+
         c = str(channel_number).zfill(2)
         logging.info(
             'Creating stream url with scheme "{scheme}", server "{server}", port "{port}", playlist "{playlist}"'.format(

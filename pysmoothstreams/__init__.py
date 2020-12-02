@@ -19,6 +19,7 @@ class Protocol(Enum):
     HLS = 1
     RTMP = 2
     MPEG = 3
+    RTSP = 4
 
     def __str__(self):
         return self.value
