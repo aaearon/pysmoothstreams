@@ -18,10 +18,7 @@ class AuthSign:
         self.expiration_date = None
         self.hash = None
 
-        if self.service == Service.MMATV:
-            self.url = "https://www.MMA-TV.net/loginForm.php"
-        else:
-            self.url = "https://auth.smoothstreams.tv/hash_api.php"
+        self.url = "https://auth.smoothstreams.tv/hash_api.php"
 
         logging.debug(
             "Created {name} with username {username} and service {service}".format(

@@ -159,8 +159,6 @@ class Guide:
                 port = "3665"
             if auth_sign.service == Service.STREAMTVNOW:
                 port = "3615"
-            if auth_sign.service == Service.MMATV:
-                port = "3635"
 
         if protocol == Protocol.MPEG:
             playlist = ".stream/mpeg.2ts"

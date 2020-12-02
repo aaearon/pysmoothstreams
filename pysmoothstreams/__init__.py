@@ -69,4 +69,3 @@ class Service(Enum):
     LIVE247 = "view247"
     STARSTREAMS = "viewss"
     STREAMTVNOW = "viewstvn"
-    MMATV = "viewmmasr"
