@@ -105,6 +105,21 @@ class TestGuide(TestCase):
             generated,
         )
 
+    def test_build_stream_url_live247_hls_adaptive(self):
+        a = AuthSign(service=Service.LIVE247, auth=("fake", "fake"))
+        # set hash and expiration manually
+        a.expiration_date = datetime.now() + timedelta(minutes=240)
+        a.hash = "abc1234"
+
+        generated = self.g.build_stream_url(
+            Server.NA_EAST_NY, 44, a, Quality.HD, Protocol.HLSA
+        )
+
+        self.assertEqual(
+            "https://dnae2.smoothstreams.tv:443/view247/ch44.smil/playlist.m3u8?wmsAuthSign=abc1234",
+            generated,
+        )
+
     def test_generate_streams(self):
         a = AuthSign(service=Service.STREAMTVNOW, auth=("fake", "fake"))
 

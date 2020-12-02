@@ -21,6 +21,7 @@ class Protocol(Enum):
     MPEG = 3
     RTSP = 4
     DASH = 5
+    HLSA = 6  # HLS Adaptive
 
     def __str__(self):
         return self.value

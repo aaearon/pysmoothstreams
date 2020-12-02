@@ -173,6 +173,10 @@ class Guide:
             playlist = "/manifest.mpd"
             quality = ".smil"
 
+        if protocol == Protocol.HLSA:
+            playlist = "/playlist.m3u8"
+            quality = ".smil"
+
         c = str(channel_number).zfill(2)
         logging.info(
             'Creating stream url with scheme "{scheme}", server "{server}", port "{port}", playlist "{playlist}"'.format(
