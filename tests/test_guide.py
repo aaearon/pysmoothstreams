@@ -101,7 +101,7 @@ class TestGuide(TestCase):
         )
 
         self.assertEqual(
-            "https://dnae2.smoothstreams.tv:443/view247/ch44q1.smil/manifest.mpd?wmsAuthSign=abc1234",
+            "https://dnae2.smoothstreams.tv:443/view247/ch44.smil/manifest.mpd?wmsAuthSign=abc1234",
             generated,
         )
 
