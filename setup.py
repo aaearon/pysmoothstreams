@@ -9,7 +9,7 @@ setuptools.setup(
     url="https://github.com/aaearon/pysmoothstreams",
     license="MIT",
     author="Tim Schindler",
-    author_email="",
+    author_email="tim@iosharp.com",
     description="A Python library for SmoothStreams",
     long_description=long_description,
     long_description_content_type="text/x-rst",
