@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 
 from pysmoothstreams import Service
 from pysmoothstreams.exceptions import InvalidService
+from json import JSONDecodeError
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -77,6 +78,11 @@ class AuthSign:
                         self._get_hash_via_player()
                     else:
                         raise
+                except Exception as e:
+                    logger.critical(
+                        "Could not fetch hash via hash API or modern player. Is SmoothStreams working?"
+                    )
+                    logger.critical(e)
 
             else:
                 raise ValueError("Username or password is not set.")
@@ -127,11 +133,25 @@ class AuthSign:
         cj = http.cookiejar.CookieJar()
         opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
 
-        response = opener.open(request)
+        try:
+            response = opener.open(request)
 
-        # TODO: Make this better.
-        if response:
-            response = opener.open(api_url)
-            as_json = json.loads(response.read())
-            self.hash = as_json["hash"]
-            self.set_expiration_date(as_json["expire"])
+            if response.code == 200:
+                response = opener.open(api_url)
+
+                try:
+                    as_json = json.loads(response.read())
+
+                    self.hash = as_json["hash"]
+                    self.set_expiration_date(as_json["expire"])
+
+                except JSONDecodeError as e:
+                    logger.critical(
+                        "Could not load response as json! Possibly triggered CAPTCHA?"
+                    )
+                    raise e
+                except Exception as e:
+                    logger.critical(e)
+
+        except Exception as e:
+            logger.critical(e)
