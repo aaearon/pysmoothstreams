@@ -36,7 +36,7 @@ class AuthSign:
         return service
 
     def _get_hash_via_hash_api(self):
-        logger.warning("Getting hash using hash API")
+        logger.debug("Getting hash using hash API")
         hash_url = (
             "{url}?username={username}&site={service}&password={password}".format(
                 url=self.url,
@@ -94,7 +94,7 @@ class AuthSign:
         )
 
     def _get_hash_via_player(self):
-        logger.warning("Getting hash via modern player")
+        logger.debug("Getting hash via modern player")
         # Set the API URL used by each site's modern player. I can only guarantee that
         # the one for Live247 works.
         if self.service == Service.LIVE247:
